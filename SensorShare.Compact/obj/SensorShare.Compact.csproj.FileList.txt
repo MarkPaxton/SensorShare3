@@ -1,0 +1,60 @@
+..\bin\Debug\SensorShare.Compact.dll
+..\bin\Debug\SensorShare.Compact.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SensorShare.Compact.ImageViewForm.resources
+obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+obj\Debug\SensorShare.Compact.dll
+obj\Debug\SensorShare.Compact.pdb
+bin\Client Debug\SensorShare.Compact.dll
+bin\Client Debug\SensorShare.Compact.pdb
+bin\Client Debug\Graphs.dll
+bin\Client Debug\Log.dll
+bin\Client Debug\OpenNETCF.Drawing.dll
+bin\Client Debug\ScienceScope.dll
+bin\Client Debug\SensorShare.dll
+bin\Client Debug\System.Data.SqlServerCe.dll
+bin\Client Debug\Log.pdb
+bin\Client Debug\OpenNETCF.Drawing.xml
+bin\Client Debug\System.Data.SqlServerCe.xml
+bin\Client Debug\SensorShare.pdb
+bin\Client Debug\Graphs.pdb
+bin\Client Debug\ScienceScope.pdb
+obj\Client Debug\ResolveAssemblyReference.cache
+obj\Client Debug\SensorShare.Compact.ImageViewForm.resources
+obj\Client Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+obj\Client Debug\SensorShare.Compact.dll
+obj\Client Debug\SensorShare.Compact.pdb
+obj\Server Debug\ResolveAssemblyReference.cache
+obj\Server Debug\SensorShare.Compact.ImageViewForm.resources
+obj\Server Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+bin\Server Debug\SensorShare.Compact.dll
+bin\Server Debug\SensorShare.Compact.pdb
+bin\Server Debug\Graphs.dll
+bin\Server Debug\Log.dll
+bin\Server Debug\OpenNETCF.Drawing.dll
+bin\Server Debug\ScienceScope.dll
+bin\Server Debug\SensorShare.dll
+bin\Server Debug\System.Data.SqlServerCe.dll
+bin\Server Debug\Log.pdb
+bin\Server Debug\OpenNETCF.Drawing.xml
+bin\Server Debug\System.Data.SqlServerCe.xml
+bin\Server Debug\SensorShare.pdb
+bin\Server Debug\Graphs.pdb
+bin\Server Debug\ScienceScope.pdb
+obj\Server Debug\SensorShare.Compact.dll
+obj\Server Debug\SensorShare.Compact.pdb
+bin\Server Debug\MultiCommFramework2.dll
+bin\Server Debug\ICSharpCode.SharpZipLib.dll
+bin\Server Debug\MultiCommFramework2.pdb
+bin\Client Debug\MultiCommFramework2.dll
+bin\Client Debug\ICSharpCode.SharpZipLib.dll
+bin\Client Debug\MultiCommFramework2.pdb
+obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+..\bin\Release\SensorShare.Compact.dll
+..\bin\Release\SensorShare.Compact.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SensorShare.Compact.ImageViewForm.resources
+obj\Release\SensorShare.Compact.PrepareNoteForm.resources
+obj\Release\SensorShare.Compact.csproj.GenerateResource.Cache
+obj\Release\SensorShare.Compact.dll
+obj\Release\SensorShare.Compact.pdb

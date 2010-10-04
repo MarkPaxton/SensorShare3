@@ -1,0 +1,20 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNet.Compact.Properties.Resources.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNet.Compact.SensorNetClient.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNetClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetClient.db
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SQLite.Interop.060.DLL
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetClient.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetClient.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNetClient.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNetClient.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNet.Compact.Properties.Resources.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNet.Compact.SensorNetClient.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNetClient.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNetClient.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetClient\obj\Emulator Debug\SensorNetClient.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetClient.db
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetClient.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetClient.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SQLite.Interop.061.DLL

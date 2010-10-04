@@ -1,0 +1,14 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\Graphs.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\Graphs.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.GraphBox.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\Graphs.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\Graphs.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Release\Graphs.GraphBox.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Release\Graphs.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Release\Graphs.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Graphs\obj\Release\Graphs.pdb

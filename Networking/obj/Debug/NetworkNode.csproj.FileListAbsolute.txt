@@ -1,0 +1,40 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\bin\Debug\NetworkNode.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\bin\Debug\NetworkNode.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\Networking\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\Networking\obj\Debug\NetworkNode.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\Networking\obj\Debug\NetworkNode.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\NetworkNode.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\NetworkNode.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Networking\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Networking\obj\Debug\NetworkNode.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Networking\obj\Debug\NetworkNode.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\NetworkNode.dll
+D:\mcp\VS Projects\SensorShare\Networking\obj\Debug\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\Networking\obj\Debug\NetworkNode.dll
+D:\mcp\VS Projects\SensorShare\Networking\obj\Debug\NetworkNode.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\NetworkNode.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\NetworkNode.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\NetworkNode.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Networking\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Networking\obj\Debug\NetworkNode.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Networking\obj\Debug\NetworkNode.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\NetworkNode.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\NetworkNode.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Networking\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Networking\obj\Debug\NetworkNode.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Networking\obj\Debug\NetworkNode.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\NetworkNode.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\NetworkNode.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Networking\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Networking\obj\Debug\NetworkNode.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Networking\obj\Debug\NetworkNode.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\NetworkNode.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\NetworkNode.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Networking\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Networking\obj\Debug\NetworkNode.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Networking\obj\Debug\NetworkNode.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\NetworkNode.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\NetworkNode.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Networking\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Networking\obj\Debug\NetworkNode.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Networking\obj\Debug\NetworkNode.pdb

@@ -1,0 +1,62 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.Desktop.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.Desktop.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\ScienceScope.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\Graphs.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\Graphs.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\ScienceScope.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.AnnotationView.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\bin\Debug\System.Data.SqlServerCe.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.Desktop.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.Desktop.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\ScienceScope.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\System.Data.SqlServerCe.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Debug\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.AnnotationView.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\Graphs.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\SensorShare.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\Graphs.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Debug\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Desktop.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Desktop.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.AnnotationView.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Desktop.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Desktop.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.AnnotationView.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.AnnotationView.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Desktop\SensorShare.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Desktop\SensorShare.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Desktop\SensorShare.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Desktop\SensorShare.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.AnnotationView.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Desktop\obj\Debug\SensorShare.pdb

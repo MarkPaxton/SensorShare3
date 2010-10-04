@@ -1,0 +1,28 @@
+..\bin\Debug\Graphs.dll
+..\bin\Debug\Graphs.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Graphs.GraphBox.resources
+obj\Debug\Graphs.csproj.GenerateResource.Cache
+obj\Debug\Graphs.dll
+obj\Debug\Graphs.pdb
+bin\Client Debug\Graphs.dll
+bin\Client Debug\Graphs.pdb
+obj\Client Debug\ResolveAssemblyReference.cache
+obj\Client Debug\Graphs.GraphBox.resources
+obj\Client Debug\Graphs.csproj.GenerateResource.Cache
+obj\Client Debug\Graphs.dll
+obj\Client Debug\Graphs.pdb
+bin\Server Debug\Graphs.dll
+bin\Server Debug\Graphs.pdb
+obj\Server Debug\ResolveAssemblyReference.cache
+obj\Server Debug\Graphs.GraphBox.resources
+obj\Server Debug\Graphs.csproj.GenerateResource.Cache
+obj\Server Debug\Graphs.dll
+obj\Server Debug\Graphs.pdb
+..\bin\Release\Graphs.dll
+..\bin\Release\Graphs.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Graphs.GraphBox.resources
+obj\Release\Graphs.csproj.GenerateResource.Cache
+obj\Release\Graphs.dll
+obj\Release\Graphs.pdb

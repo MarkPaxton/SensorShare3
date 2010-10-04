@@ -1,0 +1,36 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.AnnotationPanel.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.GraphPage.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.pdb
+D:\mcp\VS Projects\SensorShare\bin\Release\SensorShare.dll
+D:\mcp\VS Projects\SensorShare\bin\Release\SensorShare.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\SensorShare.AnnotationPanel.resources
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\SensorShare.GraphPage.resources
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\SensorShare.csproj.GenerateResource.Cache
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\SensorShare.dll
+D:\mcp\VS Projects\SensorShare\SensorShare\obj\Release\SensorShare.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.AnnotationPanel.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.GraphPage.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.AnnotationPanel.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.GraphPage.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare\obj\Release\SensorShare.pdb

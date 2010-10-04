@@ -1,0 +1,56 @@
+..\bin\Debug\SensorShare.dll
+..\bin\Debug\SensorShare.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SensorShare.GraphPage.resources
+obj\Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+obj\Debug\SensorShare.csproj.GenerateResource.Cache
+obj\Debug\SensorShare.dll
+obj\Debug\SensorShare.pdb
+bin\Client Debug\SensorShare.dll
+bin\Client Debug\SensorShare.pdb
+bin\Client Debug\Graphs.dll
+bin\Client Debug\Log.dll
+bin\Client Debug\ScienceScope.dll
+bin\Client Debug\System.Data.SqlServerCe.dll
+bin\Client Debug\System.Data.SqlServerCe.xml
+bin\Client Debug\Graphs.pdb
+bin\Client Debug\ScienceScope.pdb
+bin\Client Debug\Log.pdb
+obj\Client Debug\ResolveAssemblyReference.cache
+obj\Client Debug\SensorShare.GraphPage.resources
+obj\Client Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+obj\Client Debug\SensorShare.csproj.GenerateResource.Cache
+obj\Client Debug\SensorShare.dll
+obj\Client Debug\SensorShare.pdb
+obj\Server Debug\ResolveAssemblyReference.cache
+obj\Server Debug\SensorShare.GraphPage.resources
+obj\Server Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+obj\Server Debug\SensorShare.csproj.GenerateResource.Cache
+bin\Server Debug\SensorShare.dll
+bin\Server Debug\SensorShare.pdb
+bin\Server Debug\Graphs.dll
+bin\Server Debug\Log.dll
+bin\Server Debug\ScienceScope.dll
+bin\Server Debug\System.Data.SqlServerCe.dll
+bin\Server Debug\System.Data.SqlServerCe.xml
+bin\Server Debug\Graphs.pdb
+bin\Server Debug\ScienceScope.pdb
+bin\Server Debug\Log.pdb
+obj\Server Debug\SensorShare.dll
+obj\Server Debug\SensorShare.pdb
+obj\Debug\SensorShare.AnnotationPanel.resources
+bin\Server Debug\System.Data.SqlClient.dll
+bin\Server Debug\System.Data.SqlClient.xml
+obj\Server Debug\SensorShare.AnnotationPanel.resources
+obj\Client Debug\SensorShare.AnnotationPanel.resources
+bin\Client Debug\System.Data.SqlClient.dll
+bin\Client Debug\System.Data.SqlClient.xml
+..\bin\Release\SensorShare.dll
+..\bin\Release\SensorShare.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SensorShare.AnnotationPanel.resources
+obj\Release\SensorShare.GraphPage.resources
+obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+obj\Release\SensorShare.csproj.GenerateResource.Cache
+obj\Release\SensorShare.dll
+obj\Release\SensorShare.pdb

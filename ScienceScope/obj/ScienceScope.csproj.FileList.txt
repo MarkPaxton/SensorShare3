@@ -1,0 +1,20 @@
+..\bin\Debug\ScienceScope.dll
+..\bin\Debug\ScienceScope.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ScienceScope.dll
+obj\Debug\ScienceScope.pdb
+bin\Client Debug\ScienceScope.dll
+bin\Client Debug\ScienceScope.pdb
+obj\Client Debug\ResolveAssemblyReference.cache
+obj\Client Debug\ScienceScope.dll
+obj\Client Debug\ScienceScope.pdb
+bin\Server Debug\ScienceScope.dll
+bin\Server Debug\ScienceScope.pdb
+obj\Server Debug\ResolveAssemblyReference.cache
+obj\Server Debug\ScienceScope.dll
+obj\Server Debug\ScienceScope.pdb
+..\bin\Release\ScienceScope.dll
+..\bin\Release\ScienceScope.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ScienceScope.dll
+obj\Release\ScienceScope.pdb

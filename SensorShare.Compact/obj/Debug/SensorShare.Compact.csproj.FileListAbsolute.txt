@@ -1,0 +1,60 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Compact.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Compact.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\SensorShare.Compact.dll
+D:\mcp\VS Projects\SensorShare\bin\Debug\SensorShare.Compact.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Compact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SensorShare.Compact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\SQLite.Interop.061.DLL
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\SQLite.Interop.061.DLL
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\SensorShareCompact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\SensorShareCompact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SQLite.Interop.061.DLL
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareCompact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareCompact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.ConnectLogbookForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShareCompact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShareCompact.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SQLite.Interop.061.DLL
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareCompact.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareCompact.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.ConnectLogbookForm.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.ViewNotAvailableAnnotationControl.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShareCompact.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShare.Compact\obj\Debug\SensorShareCompact.pdb

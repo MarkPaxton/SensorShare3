@@ -1,0 +1,25 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\ScienceScope.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\ScienceScope.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.pdb
+D:\mcp\VS Projects\SensorShare\bin\Release\ScienceScope.dll
+D:\mcp\VS Projects\SensorShare\bin\Release\ScienceScope.pdb
+D:\mcp\VS Projects\SensorShare\ScienceScope\obj\Release\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.dll
+D:\mcp\VS Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Release\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Release\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Release\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Release\ScienceScope.pdb

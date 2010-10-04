@@ -1,0 +1,34 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Compact.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Compact.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.ImageViewForm.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.PrepareNoteForm.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.pdb
+D:\mcp\VS Projects\SensorShare\bin\Release\SensorShare.Compact.dll
+D:\mcp\VS Projects\SensorShare\bin\Release\SensorShare.Compact.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Release\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.ImageViewForm.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.PrepareNoteForm.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.csproj.GenerateResource.Cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Compact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Compact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.ImageViewForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.PrepareNoteForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.ImageViewForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.PrepareNoteForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.ViewNotAvailableAnnotationControl.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.pdb

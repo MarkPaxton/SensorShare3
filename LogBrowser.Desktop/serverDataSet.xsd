@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="serverDataSet" targetNamespace="http://tempuri.org/serverDataSet.xsd" xmlns:mstns="http://tempuri.org/serverDataSet.xsd" xmlns="http://tempuri.org/serverDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="serverDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="serverDataSet" msprop:Generator_DataSetName="serverDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="servers" msprop:Generator_UserTableName="servers" msprop:Generator_RowDeletedName="serversRowDeleted" msprop:Generator_RowChangedName="serversRowChanged" msprop:Generator_RowClassName="serversRow" msprop:Generator_RowChangingName="serversRowChanging" msprop:Generator_RowEvArgName="serversRowChangeEvent" msprop:Generator_RowEvHandlerName="serversRowChangeEventHandler" msprop:Generator_TableClassName="serversDataTable" msprop:Generator_TableVarName="tableservers" msprop:Generator_RowDeletingName="serversRowDeleting" msprop:Generator_TablePropName="servers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="server_id" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msdata:Caption="Server ID" msprop:Generator_UserColumnName="server_id" msprop:Generator_ColumnVarNameInTable="columnserver_id" msprop:Generator_ColumnPropNameInRow="server_id" msprop:Generator_ColumnPropNameInTable="server_idColumn" type="xs:string" />
+              <xs:element name="name" msdata:Caption="Name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_1_unit" msprop:Generator_UserColumnName="sensor_1_unit" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="sensor_1_unit" msprop:Generator_ColumnPropNameInTable="sensor_1_unitColumn" msprop:Generator_ColumnVarNameInTable="columnsensor_1_unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_3_unit" msprop:Generator_UserColumnName="sensor_3_unit" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="sensor_3_unit" msprop:Generator_ColumnPropNameInTable="sensor_3_unitColumn" msprop:Generator_ColumnVarNameInTable="columnsensor_3_unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_4_unit" msprop:Generator_UserColumnName="sensor_4_unit" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="sensor_4_unit" msprop:Generator_ColumnPropNameInTable="sensor_4_unitColumn" msprop:Generator_ColumnVarNameInTable="columnsensor_4_unit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_1_range" msprop:Generator_UserColumnName="sensor_1_range" msprop:Generator_ColumnVarNameInTable="columnsensor_1_range" msprop:Generator_ColumnPropNameInRow="sensor_1_range" msprop:Generator_ColumnPropNameInTable="sensor_1_rangeColumn" type="xs:long" />
+              <xs:element name="sensor_2_range" msprop:Generator_UserColumnName="sensor_2_range" msprop:Generator_ColumnVarNameInTable="columnsensor_2_range" msprop:Generator_ColumnPropNameInRow="sensor_2_range" msprop:Generator_ColumnPropNameInTable="sensor_2_rangeColumn" type="xs:long" />
+              <xs:element name="sensor_3_range" msprop:Generator_UserColumnName="sensor_3_range" msprop:Generator_ColumnVarNameInTable="columnsensor_3_range" msprop:Generator_ColumnPropNameInRow="sensor_3_range" msprop:Generator_ColumnPropNameInTable="sensor_3_rangeColumn" type="xs:long" />
+              <xs:element name="sensor_4_range" msprop:Generator_UserColumnName="sensor_4_range" msprop:Generator_ColumnVarNameInTable="columnsensor_4_range" msprop:Generator_ColumnPropNameInRow="sensor_4_range" msprop:Generator_ColumnPropNameInTable="sensor_4_rangeColumn" type="xs:long" />
+              <xs:element name="sensor_1_id" msprop:Generator_UserColumnName="sensor_1_id" msprop:Generator_ColumnVarNameInTable="columnsensor_1_id" msprop:Generator_ColumnPropNameInRow="sensor_1_id" msprop:Generator_ColumnPropNameInTable="sensor_1_idColumn" type="xs:long" />
+              <xs:element name="sensor_2_id" msprop:Generator_UserColumnName="sensor_2_id" msprop:Generator_ColumnVarNameInTable="columnsensor_2_id" msprop:Generator_ColumnPropNameInRow="sensor_2_id" msprop:Generator_ColumnPropNameInTable="sensor_2_idColumn" type="xs:long" />
+              <xs:element name="sensor_3_id" msprop:Generator_UserColumnName="sensor_3_id" msprop:Generator_ColumnVarNameInTable="columnsensor_3_id" msprop:Generator_ColumnPropNameInRow="sensor_3_id" msprop:Generator_ColumnPropNameInTable="sensor_3_idColumn" type="xs:long" />
+              <xs:element name="sensor_4_id" msprop:Generator_UserColumnName="sensor_4_id" msprop:Generator_ColumnVarNameInTable="columnsensor_4_id" msprop:Generator_ColumnPropNameInRow="sensor_4_id" msprop:Generator_ColumnPropNameInTable="sensor_4_idColumn" type="xs:long" />
+              <xs:element name="sensor_2_unit" msprop:Generator_UserColumnName="sensor_2_unit" msprop:Generator_ColumnVarNameInTable="columnsensor_2_unit" msprop:Generator_ColumnPropNameInRow="sensor_2_unit" msprop:Generator_ColumnPropNameInTable="sensor_2_unitColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description" msprop:Generator_UserColumnName="description" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInTable="descriptionColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="location" msprop:Generator_UserColumnName="location" msprop:Generator_ColumnPropNameInRow="location" msprop:Generator_ColumnVarNameInTable="columnlocation" msprop:Generator_ColumnPropNameInTable="locationColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="127" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="image" msprop:Generator_UserColumnName="image" msprop:Generator_ColumnPropNameInRow="image" msprop:Generator_ColumnVarNameInTable="columnimage" msprop:Generator_ColumnPropNameInTable="imageColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="sensor_1_name" msprop:Generator_UserColumnName="sensor_1_name" msprop:Generator_ColumnPropNameInRow="sensor_1_name" msprop:Generator_ColumnVarNameInTable="columnsensor_1_name" msprop:Generator_ColumnPropNameInTable="sensor_1_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_2_name" msprop:Generator_UserColumnName="sensor_2_name" msprop:Generator_ColumnPropNameInRow="sensor_2_name" msprop:Generator_ColumnVarNameInTable="columnsensor_2_name" msprop:Generator_ColumnPropNameInTable="sensor_2_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_3_name" msprop:Generator_UserColumnName="sensor_3_name" msprop:Generator_ColumnPropNameInRow="sensor_3_name" msprop:Generator_ColumnVarNameInTable="columnsensor_3_name" msprop:Generator_ColumnPropNameInTable="sensor_3_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sensor_4_name" msprop:Generator_UserColumnName="sensor_4_name" msprop:Generator_ColumnPropNameInRow="sensor_4_name" msprop:Generator_ColumnVarNameInTable="columnsensor_4_name" msprop:Generator_ColumnPropNameInTable="sensor_4_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:servers" />
+      <xs:field xpath="mstns:server_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Log.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Log.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Debug\Log.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Debug\Log.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\Log.dll
+D:\mcp\VS Projects\SensorShare\Log\obj\Debug\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\Log\obj\Debug\Log.dll
+D:\mcp\VS Projects\SensorShare\Log\obj\Debug\Log.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Debug\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Debug\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Debug\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Debug\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Debug\Log.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Log.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Log.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Debug\Log.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Debug\Log.pdb

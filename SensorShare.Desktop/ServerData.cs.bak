@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Net;
+using ScienceScope;
+using SensorShare.Desktop;
+
+namespace SensorShare
+{
+    public delegate void ServerDelegate(ServerData data);
+
+    public class ServerData
+    {
+        public string name = "";
+        public IPEndPoint ipEndPoint = null;
+        public string description = "";
+        public JpegImage picture = null;
+        public SensorDescriptionsData sensors = new SensorDescriptionsData();
+
+        public ServerData(String name, IPEndPoint ipEnd, JpegImage picture, String description, SensorDescriptionsData sensors)
+        {
+            this.name = name;
+            this.ipEndPoint = ipEnd;
+            this.description = description;
+            this.picture = picture;
+            foreach (SensorDefinition sensorDef in sensors)
+            {
+                this.sensors.Add(sensorDef);
+            }
+        }
+
+        public string GetServerIdString()
+        {
+            string toReturn = String.Format("{0}_{1}", name, ipEndPoint.Address);
+            toReturn = Regex.Replace(toReturn, " ", "");
+            return toReturn;
+        }
+    }
+}

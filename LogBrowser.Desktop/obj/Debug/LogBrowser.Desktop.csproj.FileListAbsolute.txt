@@ -1,0 +1,16 @@
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\bin\Debug\LogBrowser.Desktop.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\bin\Debug\LogBrowser.Desktop.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\LogBrowser.Desktop.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\LogBrowser.Desktop.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\LogBrowser.Desktop.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\SensorShare.Desktop.LogBrowserForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\SensorShare.Desktop.Properties.Resources.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Desktop\LogBrowser.Desktop.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Desktop\LogBrowser.Desktop.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\SensorShare.Desktop.LogBrowserForm.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\SensorShare.Desktop.Properties.Resources.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\LogBrowser.Desktop.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\LogBrowser.Desktop.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\LogBrowser.Desktop\obj\Debug\LogBrowser.Desktop.pdb

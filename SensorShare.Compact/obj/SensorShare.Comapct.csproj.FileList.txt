@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SensorShare.Compact.AnnotationViewPanel.resources
+obj\Debug\SensorShare.Compact.ImageViewForm.resources
+obj\Debug\SensorShare.Comapct.csproj.GenerateResource.Cache
+..\bin\Debug\SensorShare.Compact.dll
+..\bin\Debug\SensorShare.Compact.pdb
+obj\Debug\SensorShare.Compact.dll
+obj\Debug\SensorShare.Compact.pdb

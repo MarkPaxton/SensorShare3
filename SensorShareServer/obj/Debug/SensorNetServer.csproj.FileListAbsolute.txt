@@ -1,0 +1,24 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.Compact.Properties.Resources.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNet.Compact.SensorNetServer.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNet.Compact.ServerConfig.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SQLite.Interop.060.DLL
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\defaultImage.jpg
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.db
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SQLite.Interop.061.DLL
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\defaultImage.jpg
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.db
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.Compact.Properties.Resources.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNet.Compact.SensorNetServer.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNet.Compact.ServerConfig.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Debug\SensorNetServer.pdb

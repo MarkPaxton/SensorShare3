@@ -1,0 +1,24 @@
+..\bin\Debug\Log.dll
+..\bin\Debug\Log.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Log.dll
+obj\Debug\Log.pdb
+bin\Client Debug\Log.dll
+bin\Client Debug\Log.pdb
+bin\Client Debug\System.Data.SqlServerCe.dll
+bin\Client Debug\System.Data.SqlServerCe.xml
+obj\Client Debug\ResolveAssemblyReference.cache
+obj\Client Debug\Log.dll
+obj\Client Debug\Log.pdb
+obj\Server Debug\ResolveAssemblyReference.cache
+bin\Server Debug\Log.dll
+bin\Server Debug\Log.pdb
+bin\Server Debug\System.Data.SqlServerCe.dll
+bin\Server Debug\System.Data.SqlServerCe.xml
+obj\Server Debug\Log.dll
+obj\Server Debug\Log.pdb
+..\bin\Release\Log.dll
+..\bin\Release\Log.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Log.dll
+obj\Release\Log.pdb

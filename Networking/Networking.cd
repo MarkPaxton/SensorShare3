@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Networking.NetworkNode">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>NetworkNode.cs</FileName>
+      <HashCode>IAQiAAgAQSAAAAoCgGAAAgAQEYAAAAgAKAiAEAAABAw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.NetworkMessage">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NetworkMessage.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAQAAAAAABABAAAQAQQAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Networking.MessageEventArgs">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageEventHandler.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Networking.NetworkMessageType">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>NetworkMessage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

@@ -1,0 +1,42 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Graphs.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Graphs.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.GraphBox.resources
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\Graphs.dll
+D:\mcp\VS Projects\SensorShare\bin\Debug\Graphs.pdb
+D:\mcp\VS Projects\SensorShare\Graphs\obj\Debug\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.GraphBox.resources
+D:\mcp\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+D:\mcp\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.dll
+D:\mcp\VS Projects\SensorShare\Graphs\obj\Debug\Graphs.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Graphs.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Graphs.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.GraphBox.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Graphs.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\Graphs.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.GraphBox.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Graphs\obj\Debug\Graphs.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Graphs.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Graphs.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\Graphs.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\Graphs.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\mcp.Graphs.GraphBox.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Graphs.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Graphs.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\mcp.Graphs.GraphBox.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\Graphs.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\Graphs.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\Graphs\obj\Debug\Graphs.pdb

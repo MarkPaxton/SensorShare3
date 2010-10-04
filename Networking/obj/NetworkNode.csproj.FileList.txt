@@ -1,0 +1,10 @@
+..\bin\Debug\NetworkNode.dll
+..\bin\Debug\NetworkNode.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NetworkNode.dll
+obj\Debug\NetworkNode.pdb
+..\bin\Release\NetworkNode.dll
+..\bin\Release\NetworkNode.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\NetworkNode.dll
+obj\Release\NetworkNode.pdb

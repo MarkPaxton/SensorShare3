@@ -1,0 +1,48 @@
+bin\Debug\SensorShare.Desktop.dll
+bin\Debug\SensorShare.Desktop.pdb
+bin\Debug\ScienceScope.dll
+bin\Debug\SensorShare.dll
+bin\Debug\SensorShare.pdb
+bin\Debug\ScienceScope.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SensorShare.Desktop.AnnotationView.resources
+obj\Debug\SensorShare.Desktop.ImageViewForm.resources
+obj\Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+obj\Debug\SensorShare.Desktop.dll
+obj\Debug\SensorShare.Desktop.pdb
+bin\Debug\System.Data.SqlServerCe.dll
+bin\Debug\System.Data.SqlServerCe.xml
+obj\Server Debug\ResolveAssemblyReference.cache
+obj\Server Debug\SensorShare.Desktop.AnnotationView.resources
+obj\Server Debug\SensorShare.Desktop.ImageViewForm.resources
+obj\Server Debug\SensorShare.Desktop.csproj.GenerateResource.Cache
+bin\Server Debug\SensorShare.Desktop.dll
+bin\Server Debug\SensorShare.Desktop.pdb
+bin\Server Debug\ScienceScope.dll
+bin\Server Debug\SensorShare.dll
+bin\Server Debug\Graphs.dll
+bin\Server Debug\System.Data.SqlServerCe.dll
+bin\Server Debug\Graphs.pdb
+bin\Server Debug\SensorShare.pdb
+bin\Server Debug\ScienceScope.pdb
+bin\Server Debug\System.Data.SqlServerCe.xml
+obj\Server Debug\SensorShare.Desktop.dll
+obj\Server Debug\SensorShare.Desktop.pdb
+bin\Debug\Graphs.dll
+bin\Debug\Graphs.pdb
+bin\Release\SensorShare.Desktop.dll
+bin\Release\SensorShare.Desktop.pdb
+bin\Release\ScienceScope.dll
+bin\Release\SensorShare.dll
+bin\Release\Graphs.dll
+bin\Release\System.Data.SqlServerCe.dll
+bin\Release\Graphs.pdb
+bin\Release\SensorShare.pdb
+bin\Release\ScienceScope.pdb
+bin\Release\System.Data.SqlServerCe.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SensorShare.Desktop.AnnotationView.resources
+obj\Release\SensorShare.Desktop.ImageViewForm.resources
+obj\Release\SensorShare.Desktop.csproj.GenerateResource.Cache
+obj\Release\SensorShare.Desktop.dll
+obj\Release\SensorShare.Desktop.pdb

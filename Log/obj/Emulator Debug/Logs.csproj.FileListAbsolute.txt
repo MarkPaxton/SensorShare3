@@ -1,0 +1,12 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\bin\Emulator Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\bin\Emulator Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Emulator Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Emulator Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Emulator Debug\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Emulator Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Emulator Debug\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\Log\obj\Emulator Debug\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\Log.pdb

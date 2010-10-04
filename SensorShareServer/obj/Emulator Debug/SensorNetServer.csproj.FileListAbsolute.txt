@@ -1,0 +1,47 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SQLite.Interop.060.DLL
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\defaultImage.jpg
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNetServer.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNetServer.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Microsoft.WindowsMobile.Forms.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\NetworkNode.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\OpenNETCF.Windows.Forms.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNet.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNet.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Microsoft.WindowsMobile.PocketOutlook.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Microsoft.WindowsMobile.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\OpenNETCF.Drawing.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\OpenNETCF.Windows.Forms.xml
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Microsoft.WindowsMobile.Forms.xml
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Microsoft.WindowsMobile.PocketOutlook.xml
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\NetworkNode.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNet.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNet.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Microsoft.WindowsMobile.xml
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\OpenNETCF.Drawing.xml
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\bin\Emulator Debug\SensorNetServer.db
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SQLite.Interop.060.DLL
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\defaultImage.jpg
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.db
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.Compact.Properties.Resources.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNet.Compact.SensorNetServer.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNet.Compact.ServerConfig.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.exe
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\defaultImage.jpg
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.db
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SensorNetServer.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.Compact.Properties.Resources.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNet.Compact.SensorNetServer.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNet.Compact.ServerConfig.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\SensorNetServer\obj\Emulator Debug\SensorNetServer.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorNet\bin\Debug\SQLite.Interop.061.DLL

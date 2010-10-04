@@ -1,0 +1,196 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02C633B0-6169-4C91-80DE-49DA9451D96C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SensorShare</RootNamespace>
+    <AssemblyName>SensorShare</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>4118C335-430C-497f-BE48-11C3316B135E</PlatformID>
+    <OSVersion>5.01</OSVersion>
+    <DeployDirSuffix>SensorShare</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NativePlatformName>Windows Mobile 5.0 Pocket PC SDK</NativePlatformName>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Client Debug|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <FileAlignment>512</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Server Debug|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <FileAlignment>512</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.61.0, Culture=neutral, PublicKeyToken=1fdb50b1b62b4c84, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SQLite\bin\CompactFramework\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\AnnotationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AnnotationPanel.Designer.cs">
+      <DependentUpon>AnnotationPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnnotationTypes\Annotation.cs" />
+    <Compile Include="AnnotationTypes\AnnotationBase.cs" />
+    <Compile Include="AnnotationTypes\AnnotationType.cs" />
+    <Compile Include="AnnotationTypes\QuestionAndAnswerAnnotation.cs" />
+    <Compile Include="AnnotationTypes\ImageAnnotation.cs" />
+    <None Include="Helpers\DatabaseHelper.cs" />
+    <Compile Include="Helpers\MessageHelper.cs" />
+    <Compile Include="ISensorReadings.cs" />
+    <Compile Include="MessageClasses\MessageType.cs" />
+    <Compile Include="MessageClasses\NoteMessage.cs" />
+    <Compile Include="MessageClasses\DescriptionMessage.cs" />
+    <Compile Include="AnnotationTypes\IAnnotation.cs" />
+    <Compile Include="MessageClasses\AnnotationTime.cs" />
+    <Compile Include="MessageClasses\AnswerMessage.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Controls\GraphPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GraphPage.Designer.cs">
+      <DependentUpon>GraphPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageClasses\BlockReadingsRequest.cs" />
+    <Compile Include="MessageClasses\PictureMessage.cs" />
+    <Compile Include="AnnotationTypes\TextAnnotation.cs" />
+    <Compile Include="MessageClasses\TypedMessage.cs" />
+    <Compile Include="ServerData.cs" />
+    <Compile Include="SensorReadings.cs" />
+    <Compile Include="Controls\ViewNotAvailableAnnotationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewNotAvailableAnnotationControl.Designer.cs">
+      <DependentUpon>ViewNotAvailableAnnotationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\QuestionHelper.cs" />
+    <Compile Include="MessageClasses\SensorDescriptionsData.cs" />
+    <Compile Include="SensorShareConfig.cs" />
+    <Compile Include="Helpers\Stats.cs" />
+    <Compile Include="Helpers\TextHelper.cs" />
+    <Compile Include="FileWriter.cs" />
+    <Compile Include="MessageClasses\QuestionMessage.cs" />
+    <Compile Include="SensorShare.cs" />
+    <Compile Include="MessageClasses\SensorReadingsData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\mcp-Shared\mcp\mcp.csproj">
+      <Project>{EDE38B18-BDA3-480B-AB23-ED1CC2A2CC66}</Project>
+      <Name>mcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Graphs\Graphs.csproj">
+      <Project>{9A24E304-B822-4052-A043-3353275AB405}</Project>
+      <Name>Graphs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Logs.csproj">
+      <Project>{B56EBCA1-DFB7-4158-8158-E04E68A16E56}</Project>
+      <Name>Logs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScienceScope\ScienceScope.csproj">
+      <Project>{880AD4FD-BBB7-4537-B0E9-8378FF7E6A09}</Project>
+      <Name>ScienceScope</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\AnnotationPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AnnotationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GraphPage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GraphPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ViewNotAvailableAnnotationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ViewNotAvailableAnnotationControl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+</Project>

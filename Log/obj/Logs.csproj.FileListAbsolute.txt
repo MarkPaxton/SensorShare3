@@ -1,0 +1,10 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Log\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Log\obj\Debug\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Log\obj\Debug\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Log\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Log\obj\Release\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\Log\obj\Release\Log.pdb

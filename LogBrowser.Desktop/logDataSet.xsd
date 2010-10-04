@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="logDataSet" targetNamespace="http://tempuri.org/logDataSet.xsd" xmlns:mstns="http://tempuri.org/logDataSet.xsd" xmlns="http://tempuri.org/logDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="logDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="logDataSet" msprop:Generator_DataSetName="logDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="log" msprop:Generator_UserTableName="log" msprop:Generator_RowDeletedName="logRowDeleted" msprop:Generator_TableClassName="logDataTable" msprop:Generator_RowChangedName="logRowChanged" msprop:Generator_RowClassName="logRow" msprop:Generator_RowChangingName="logRowChanging" msprop:Generator_RowEvArgName="logRowChangeEvent" msprop:Generator_RowEvHandlerName="logRowChangeEventHandler" msprop:Generator_TablePropName="log" msprop:Generator_TableVarName="tablelog" msprop:Generator_RowDeletingName="logRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="time" msprop:Generator_UserColumnName="time" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInTable="timeColumn" type="xs:dateTime" />
+              <xs:element name="message" msprop:Generator_UserColumnName="message" msprop:Generator_ColumnPropNameInRow="message" msprop:Generator_ColumnVarNameInTable="columnmessage" msprop:Generator_ColumnPropNameInTable="messageColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="511" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

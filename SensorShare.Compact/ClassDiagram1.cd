@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SensorShare.Compact.Bluetooth.BTDeviceHashtable" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Bluetooth.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.Bluetooth.BTHelper" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Bluetooth.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAAAgAAAAAAAAAAAIAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.Bluetooth.BtStack" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>gASIAAIIIEQgYAEBqBSAAIBACggALqAABACCJAQwACg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.Bluetooth.BtDevice" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>IgAUCAQiIIoEIApEAQAAABAARQJYBAAoKQAIIAAYoCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.JpegImage" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Compact.JpegImage.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAgAAAAAAAAAggAAAAIAAAACAAgAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.ImageViewForm" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ImageViewForm.cs</FileName>
+      <HashCode>AAAAIAAAACAAAAAAAACAAAACECAAAACAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.ServerTreeView" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerTreeView.cs</FileName>
+      <HashCode>AAIgAQQAlAAABEAAAAAABAAEQQAAAAAABABAMABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.ServerSelectedEventArgs" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Compact.ViewAnnotationControl" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ViewAnnotationControl.cs</FileName>
+      <HashCode>AAAAAAAwACAAgAACAAOAkABCgKAIAAAACAAQABBAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Comapct.ServerListView" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerListView.cs</FileName>
+      <HashCode>AAIgAQQAgAAABEAhAAAABAAAQgAAAAAIBABEIABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SensorShare.Compact.Bluetooth.ConnStatus" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAQEAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SensorShare.Compact.Bluetooth.GenSecOptions" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAgAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SensorShare.Compact.Bluetooth.SvcSecOptions" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAAAAAAAABAAAAEAAAAAAABAAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SensorShare.Compact.Bluetooth.SvcListItem" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SensorShare.Compact.Bluetooth.SessionListItem" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAQgAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SensorShare.Compact.Bluetooth.RecvFileInfo" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="SensorShare.Compact.Bluetooth.BTDeviceTypes" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Bluetooth.cs</FileName>
+      <HashCode>BAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIgAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTRC" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAQQAAAAAAAAAGAAAAAABAgAAAAAAAFAAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTDEVCLASS" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>IAAgAAABAEAAAAAAAAAAAAAQAAAAAAAQAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTDEVTYPE" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>CAAAAAACAAAEQEAACAAAAAwAAAAAIBgAAQAAAGAAIIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTSVC" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAABAAAQAIAAABAgAAAAAIBJAAQAAAAAEACAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTPOWER_LEVEL" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAo=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTRSSI_LEVEL" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAACAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.eBTCONN_STATUS" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAAAAAAAAgAACAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.Compact.Bluetooth.ePAN_NODETYPE" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BTAccess.cs</FileName>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SensorShare.Compact.ServerSelectedEventHandler" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerTreeView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

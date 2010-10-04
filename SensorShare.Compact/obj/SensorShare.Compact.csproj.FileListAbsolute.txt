@@ -1,0 +1,16 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\SensorShare.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.ImageViewForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.PrepareNoteForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Debug\SensorShare.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\SensorShare.Compact.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.ImageViewForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.PrepareNoteForm.resources
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.csproj.GenerateResource.Cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\SensorShare.Compact\obj\Release\SensorShare.Compact.pdb

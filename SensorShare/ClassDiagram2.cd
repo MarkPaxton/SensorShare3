@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SensorShare.AnnotationBase" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AnnotationTypes\AnnotationBase.cs</FileName>
+      <HashCode>AgCAAAQQAAAAgAAAhAAAAIAAAAABAAABBQAAACFAAgA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SensorShare.ImageAnnotation" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AnnotationTypes\ImageAnnotation.cs</FileName>
+      <HashCode>AACAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.QuestionAndAnswerAnnotation" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AnnotationTypes\QuestionAndAnswerAnnotation.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAABAAEAQgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.TextAnnotation" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AnnotationTypes\TextAnnotation.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.DatabaseHelper" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helpers\DatabaseHelper.cs</FileName>
+      <HashCode>ACEAAAAIAAkEAAIAASAlEAAAAAAAAAAAAAJBAAgABIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.FileWriter" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FileWriter.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAIAAAAQAAAEAAAABAgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.GraphPage" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GraphPage.cs</FileName>
+      <HashCode>IGAAAAIAACIggBAAYAGQISICBbWhRCSYAIBUAwAQEJo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.GraphChagedEventArgs" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GraphPage.cs</FileName>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.AnnotationTime" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\AnnotationTime.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.AnswerMessage" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\AnswerMessage.cs</FileName>
+      <HashCode>AAABAgAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.BlockReadingsRequest" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\BlockReadingsRequest.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.DescriptionMessage" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\DescriptionMessage.cs</FileName>
+      <HashCode>AACAAAIAAAAgAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.PictureMessage" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\PictureMessage.cs</FileName>
+      <HashCode>AACAAAAAAAAgAAAAQAAAAAQAAAAAAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.QuestionMessage" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\QuestionMessage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAQAgAAAAAAAAAAAAAAAAAAACgAAAwA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.SensorDescriptionsData" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\SensorDescriptionsData.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.SensorReadingsData">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\SensorReadingsData.cs</FileName>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAQBoABAAEAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.QuestionHelper" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helpers\QuestionHelper.cs</FileName>
+      <HashCode>AAAAACAAAAAEAAAAAAAAAAAAAAAAAAACAAAAAQAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.SensorReadings">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorReadings.cs</FileName>
+      <HashCode>AAQAAAAQBAAAEAQIAAAACAAAAAAAAAAIAAAAiCBEAQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SensorShare.NumString" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>IAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.SQLHelper" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.SensorShareConfig" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShareConfig.cs</FileName>
+      <HashCode>AAAIJAAAAAIIAAAAAABIACAAQQhEAAAACIACIgIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.ServerData" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ServerData.cs</FileName>
+      <HashCode>AgAAAAAAAAAAAAAAIIAAAEAAAAAEEAAAAAAAAAAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.Stats" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helpers\Stats.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.TextHelper" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Helpers\TextHelper.cs</FileName>
+      <HashCode>AAAAAACAAACAAAAABQAAAAAAAAAAAAAQAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.TypedMessage" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\TypedMessage.cs</FileName>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SensorShare.ViewNotAvailableAnnotationControl" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ViewNotAvailableAnnotationControl.cs</FileName>
+      <HashCode>AQAAAAAwACAEABAAAAOAEABCAAAIAAAACAAAABBAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SensorShare.IAnnotation" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AnnotationTypes\IAnnotation.cs</FileName>
+      <HashCode>AACAAAAQAAAAgAAAgAAAAAAAAAAAAAABBQAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SensorShare.ISensorReadings" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ISensorReadings.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAQAAAAACAAAAAAAAAAIAAAAgABEAQA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SensorShare.AnnotationType" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>AnnotationTypes\AnnotationType.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAACAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SensorShare.MessageType" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageClasses\MessageType.cs</FileName>
+      <HashCode>QgAAAAACEgAEAAEUAAAAAAAAAAAEAAAAAAAAASAAAgA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SensorShare.GraphChagedEventHandler" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GraphPage.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.VoidDelegate" Collapsed="true">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.TextBoxDelegate" Collapsed="true">
+    <Position X="11.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAABAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.TextDelegate" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.ReadingsDelegate" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.ButtonBoolDelegate" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.ButtonStringBoolDelegate" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.BitmapDelegate" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.DialogResultDelegeate" Collapsed="true">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SensorShare.ServerDelegate" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SensorShare.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

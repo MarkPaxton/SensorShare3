@@ -1,0 +1,10 @@
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Debug\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\bin\Release\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\ScienceScope\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Work\VS Projects\SensorShare\ScienceScope\obj\Release\ScienceScope.pdb

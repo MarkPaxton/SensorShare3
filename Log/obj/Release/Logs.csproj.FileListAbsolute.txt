@@ -1,0 +1,25 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\Log.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\Log.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\Log.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\Log.pdb
+D:\mcp\VS Projects\SensorShare\bin\Release\Log.dll
+D:\mcp\VS Projects\SensorShare\bin\Release\Log.pdb
+D:\mcp\VS Projects\SensorShare\Log\obj\Release\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\Log\obj\Release\Log.dll
+D:\mcp\VS Projects\SensorShare\Log\obj\Release\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\Log.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\Log.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\Log\obj\Release\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Release\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Release\Log.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Release\Log.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\Log\obj\Release\Log.pdb

@@ -1,0 +1,30 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\ScienceScope.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\ScienceScope.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\ScienceScope.dll
+D:\mcp\VS Projects\SensorShare\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.dll
+D:\mcp\VS Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.pdb
+D:\mcp\VS Projects\SensorShare\bin\Debug\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\ScienceScope.pdb
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.dll
+C:\Documents and Settings\Mark Paxton\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Debug\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\ScienceScope\obj\Debug\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Debug\ScienceScope.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Debug\ScienceScope.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\ScienceScope.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\ScienceScope.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Debug\ScienceScope.dll
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\ScienceScope\obj\Debug\ScienceScope.pdb

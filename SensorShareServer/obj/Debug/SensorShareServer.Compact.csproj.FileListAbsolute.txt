@@ -1,0 +1,24 @@
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetServer\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetServer\obj\Debug\SensorShare.Compact.Properties.Resources.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetServer\obj\Debug\SensorShare.Compact.SensorShareServer.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetServer\obj\Debug\SensorShare.Compact.ServerConfig.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetServer\obj\Debug\SensorShareServer.Compact.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SQLite.Interop.061.DLL
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\defaultImage.jpg
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareServer.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareServer.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.Properties.Resources.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.SensorShareServer.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.ServerConfig.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.Compact.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.exe
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareServer.db
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\sensors.db
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.Properties.Resources.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.SensorShareServer.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.ServerConfig.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.Compact.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.pdb

@@ -1,0 +1,5 @@
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\Networking\obj\MessageFragmenterTest Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\bin\Debug\NetworkNode.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\bin\Debug\NetworkNode.pdb
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\Networking\obj\MessageFragmenterTest Debug\NetworkNode.dll
+C:\Users\Mark\Documents\Visual Studio 2008\Projects\Test\Networking\obj\MessageFragmenterTest Debug\NetworkNode.pdb

@@ -1,0 +1,23 @@
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\SensorShare.Desktop.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\SensorShare.Desktop.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\ScienceScope.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\SensorShare.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\System.Data.SqlServerCe.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Release\ResolveAssemblyReference.cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.AnnotationView.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.ImageViewForm.resources
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.csproj.GenerateResource.Cache
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\Graphs.dll
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\SensorShare.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\Graphs.pdb
+D:\mcp\VS Projects\SensorShare\SensorShare.Desktop\bin\Release\ScienceScope.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Desktop.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\bin\Release\SensorShare.Desktop.pdb
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Release\ResolveAssemblyReference.cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.AnnotationView.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.ImageViewForm.resources
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.csproj.GenerateResource.Cache
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.dll
+\\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare\SensorShare.Desktop\obj\Release\SensorShare.Desktop.pdb
