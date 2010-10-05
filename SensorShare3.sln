@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectLogbookFormTest", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogBrowser.Desktop", "LogBrowser.Desktop\LogBrowser.Desktop.csproj", "{5984428C-CD8C-424E-BE0D-1DEF69F72391}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorShareClient.Compact", "SensorShareClient\SensorShareClient.Compact.csproj", "{3E456206-E658-4C35-9A37-4F6677508EA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Client Debug|Any CPU = Client Debug|Any CPU
@@ -232,6 +234,24 @@ Global
 		{5984428C-CD8C-424E-BE0D-1DEF69F72391}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5984428C-CD8C-424E-BE0D-1DEF69F72391}.Server Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5984428C-CD8C-424E-BE0D-1DEF69F72391}.Server Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Client Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Client Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Client Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Emulator Debug|Any CPU.ActiveCfg = Emulator Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Emulator Debug|Any CPU.Build.0 = Emulator Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Emulator Debug|Any CPU.Deploy.0 = Emulator Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.MessageFragmenterTest Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.MessageFragmenterTest Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.MessageFragmenterTest Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Server Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Server Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E456206-E658-4C35-9A37-4F6677508EA2}.Server Debug|Any CPU.Deploy.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

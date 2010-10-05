@@ -12,7 +12,7 @@ namespace SensorShare.Compact
       {
          NetworkInterface[] adapters = null;
 
-         adapters = WirelessZeroConfigNetworkInterface.GetAllNetworkInterfaces();
+         adapters = (NetworkInterface[]) WirelessZeroConfigNetworkInterface.GetAllNetworkInterfaces();
          EAPParameters eapParam = new EAPParameters();
          eapParam.Enable8021x = false;
          foreach (NetworkInterface adapterToCast in adapters)
@@ -85,7 +85,7 @@ namespace SensorShare.Compact
          log.Append("DeviceManagement_NetworkConnected", logMessage);
 
          // List adaptors and check for valid IP addresses
-         NetworkInterface[] adapters = NetworkInterface.GetAllNetworkInterfaces();
+         NetworkInterface[] adapters = (NetworkInterface[]) NetworkInterface.GetAllNetworkInterfaces();
          foreach (NetworkInterface adapter in adapters)
          {
             if (!adapter.CurrentIpAddress.Equals(IPAddress.Any))

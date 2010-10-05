@@ -108,12 +108,25 @@
             Provides access to configuration settings in a specified configuration section. This class cannot be inherited.
             </summary>
         </member>
+        <member name="M:OpenNETCF.Configuration.ConfigurationSettings.Reload">
+            <summary>
+            Forces the settings provider to re-load the settings from the configuration file.
+            </summary>
+        </member>
         <member name="M:OpenNETCF.Configuration.ConfigurationSettings.GetConfig(System.String)">
             <summary>
             Returns configuration settings for a user-defined configuration section.  
             </summary>
             <param name="sectionName">The configuration section to read.</param>
             <returns>The configuration settings for sectionName.</returns>
+        </member>
+        <member name="M:OpenNETCF.Configuration.ConfigurationSettings.GetConfig(System.String,System.Object)">
+            <summary>
+            Returns configuration settings for a user-defined configuration section. 
+            </summary>
+            <param name="sectionName">The configuration section to read.</param>
+            <param name="context"></param>
+            <returns></returns>
         </member>
         <member name="P:OpenNETCF.Configuration.ConfigurationSettings.AppSettings">
             <summary>

@@ -60,16 +60,20 @@
     <Reference Include="mscorlib" />
     <Reference Include="OpenNETCF, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
     <Reference Include="OpenNETCF.Net, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.Net.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
-      <Private>False</Private>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="OpenNETCF.Windows.Forms, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
-    <Reference Include="OpenNETCF.WindowsCE, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+    <Reference Include="OpenNETCF.Windows.Forms, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.WindowsCE, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.WindowsCE.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -178,22 +182,20 @@
       <Link>defaultImage.jpg</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="..\SQLite\bin\CompactFramework\SQLite.Interop.061.DLL">
       <Link>SQLite.Interop.061.DLL</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\databases\sensors.db">
+    <Content Include="..\databases\sensors.db">
       <Link>sensors.db</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="..\databases\SensorShareServer.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\databases\SensorShareServer.db">
       <Link>SensorShareServer.db</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <ProjectExtensions>

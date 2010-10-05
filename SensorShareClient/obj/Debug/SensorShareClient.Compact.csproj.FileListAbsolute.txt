@@ -8,3 +8,9 @@
 \\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetClient\obj\Debug\SensorShareClient.Compact.csproj.GenerateResource.Cache
 \\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetClient\obj\Debug\SensorShareClient.exe
 \\noon\rapg$\mcp\My Documents\Visual Studio 2008\Projects\SensorShare3\SensorNetClient\obj\Debug\SensorShareClient.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareClient\obj\Debug\SensorShare.Compact.Properties.Resources.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareClient\obj\Debug\SensorShare.Compact.SensorShareClient.resources
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareClient\obj\Debug\SensorShareClient.Compact.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareClient\obj\Debug\SensorShareClient.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareClient\obj\Debug\SensorShareClient.pdb

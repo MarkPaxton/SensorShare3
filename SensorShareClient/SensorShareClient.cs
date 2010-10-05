@@ -17,7 +17,9 @@ using OpenNETCF.Net.NetworkInformation;
 using System.Data.SQLite;
 using OpenNETCF.Windows.Forms;
 using System.IO;
-using Logs;
+using mcp;
+using mcp.Logs;
+using mcp.Compact;
 
 namespace SensorShare.Compact
 {

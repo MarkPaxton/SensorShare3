@@ -5,10 +5,12 @@ using System.Windows.Forms;
 using OpenNETCF.Net.NetworkInformation;
 using SensorShare.Network;
 using OpenNETCF.WindowsCE;
-using Logs;
 using System.Collections;
 using System.Diagnostics;
 using System.ComponentModel;
+using mcp;
+using mcp.Logs;
+using mcp.Compact;
 
 namespace SensorShare.Compact
 {

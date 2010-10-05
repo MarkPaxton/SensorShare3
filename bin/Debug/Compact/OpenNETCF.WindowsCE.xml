@@ -171,6 +171,264 @@
             Returns OEM specific information from the device. This may include Model number
             </summary>
         </member>
+        <member name="T:OpenNETCF.WindowsCE.DeviceClass">
+            <summary>
+            Device family class to pass to the constructor of the DeviceStatusMonitor
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.Any">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the BLOCK_DRIVER_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.BlockDriver">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the BLOCK_DRIVER_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.FileStore">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the STORE_MOUNT_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.FATFileSystem">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the FATFS_MOUNT_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.CDFileSystem">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the CDFS_MOUNT_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.UDFileSystem">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the UDFS_MOUNT_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.CDDAFileSystem">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the CDDA_MOUNT_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.StreamDevice">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the DEVCLASS_STREAM_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.Keyboard">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the DEVCLASS_KEYBOARD_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.PMGeneric">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the PMCLASS_GENERIC_DEVICE class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.PMMiniport">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the PMCLASS_NDIS_MINIPORT class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.PMBlock">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the PMCLASS_BLOCK_DEVICE class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.PMDisplay">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the PMCLASS_DISPLAY class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.FileSystem">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the FSD_MOUNT_GUID class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.ProtectedBus">
+            <summary>
+            Initializes a DeviceStatusMonitor class with the DMCLASS_PROTECTEDBUSNAMESPACE class identifier
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.PCMCIACard">
+            <summary>
+            A PCMCIA Card Services device
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceClass.Serial">
+            <summary>
+            A Serial Port device
+            </summary>
+        </member>
+        <member name="T:OpenNETCF.WindowsCE.DeviceStatusMonitor">
+            <summary>
+            Class for receiving device notifications of all sorts (storage card
+            insertions/removals, etc.)  When a change is detected, an event is 
+            fired to all interested parties.  The parameters of the event 
+            indicate the GUID of the device interface that changed, whether the
+            device is now connected or disconnected from the system, and the
+            name of the device (COM1:, for example), which changed.
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.#ctor(System.Guid,System.Boolean)">
+            <summary>
+            Constructor for DeviceStatusMonitor.  Specifies
+            the class of notifications desired and whether
+            notifications should be fired for already-attached
+            devices.
+            </summary>
+            <param name="devclass">
+            GUID of device class to monitor (or Guid.Empty to 
+            monitor *all* device notifications).
+            </param>
+            <param name="notifyAlreadyConnectedDevices">
+            Set to true to receive notifiations for devices
+            which were attached before we started monitoring;
+            set to false to see new events only.
+            </param>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.#ctor(OpenNETCF.WindowsCE.DeviceClass,System.Boolean)">
+            <summary>
+            Constructor for DeviceStatusMonitor.  Specifies
+            the class of notifications desired and whether
+            notifications should be fired for already-attached
+            devices.
+            </summary>
+            <param name="deviceClass">
+            Device class to monitor.
+            </param>
+            <param name="notifyAlreadyConnectedDevices">
+            Set to true to receive notifiations for devices
+            which were attached before we started monitoring;
+            set to false to see new events only.
+            </param>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.Finalize">
+            <summary>
+            Destructor stops status monitoring.
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.StopStatusMonitoring">
+            <summary>
+            Stops the worker thread which monitors for changes of status
+            of the adapter.  This must be done, if monitoring has been
+            started, before the object is destroyed.
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.StartStatusMonitoring">
+            <summary>
+            Initiates a worker thread to listen for reports of device
+            changes.  Listeners can register for notification of these 
+            changes, which the thread will send.
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.OnDeviceNotification(OpenNETCF.WindowsCE.DeviceNotificationArgs)">
+            <summary>
+            Raises the DeviceNotification event.
+            </summary>
+            <param name="e">
+            An EventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceStatusMonitor.Dispose">
+            <summary>
+            Disposes resources used by the class instance
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceStatusMonitor.BLOCK_DRIVER_GUID">
+            <summary>
+            Fired when the block driver for a Storage Manager
+            device is loaded.
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceStatusMonitor.STORE_MOUNT_GUID">
+            <summary>
+            Fired when the store, managed by the Storage
+            Manager is ready.
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceStatusMonitor.FATFS_MOUNT_GUID">
+            <summary>
+            Fired when a FAT filesystem is loaded for a device.
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceStatusMonitor.CDFS_MOUNT_GUID">
+            <summary>
+            Fired when a CDFS filesystem is loaded.
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceStatusMonitor.UDFS_MOUNT_GUID">
+            <summary>
+            Fired when a UDFS filesystem is loaded.
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.DeviceStatusMonitor.CDDA_MOUNT_GUID">
+            <summary>
+            Fired when a CDDA filesystem is loaded.
+            </summary>
+        </member>
+        <member name="E:OpenNETCF.WindowsCE.DeviceStatusMonitor.DeviceNotification">
+            <summary>
+            Event fired when some aspect of the device's connected status
+            has changed.
+            </summary>
+        </member>
+        <member name="P:OpenNETCF.WindowsCE.DeviceStatusMonitor.Active">
+            <summary>
+            The Active property is true when the status is
+            being monitored.  If status monitoring is not
+            occurring, Active is false.
+            </summary>
+        </member>
+        <member name="P:OpenNETCF.WindowsCE.DeviceStatusMonitor.IsDisposed">
+            <summary>
+            Returns <b>true</b> if the instance has been disposed, otherwise <b>false</b>.
+            </summary>
+        </member>
+        <member name="T:OpenNETCF.WindowsCE.DeviceNotificationEventHandler">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:OpenNETCF.WindowsCE.DeviceNotificationArgs">
+            <summary>
+            DeviceNotificationArgs passed to interested parties
+            when a device notification is fired.  Contains the
+            device class GUID, a flag indicating whether the
+            device is attached or detached, and the device name.
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.DeviceNotificationArgs.#ctor(System.Guid,System.Boolean,System.String)">
+            <summary>
+            Constructor for notification arguments.
+            </summary>
+            <param name="g">Device class GUID</param>
+            <param name="att">Device attached, true or false</param>
+            <param name="nam">Device name</param>
+        </member>
+        <member name="P:OpenNETCF.WindowsCE.DeviceNotificationArgs.DeviceInterfaceGUID">
+            <summary>
+            GUID of the interface/type/class of the device
+            being attached or detached.
+            </summary>
+        </member>
+        <member name="P:OpenNETCF.WindowsCE.DeviceNotificationArgs.DeviceAttached">
+            <summary>
+            True if, after the latest event, the device is
+            connected; false, otherwise.
+            </summary>
+        </member>
+        <member name="P:OpenNETCF.WindowsCE.DeviceNotificationArgs.DeviceName">
+            <summary>
+            The device name being attached/detached.  Might
+            be a stream driver name like COM1:, or something
+            more descriptive like Power Manager, depending
+            on the GUID.
+            </summary>
+        </member>
         <member name="T:OpenNETCF.WindowsCE.StdIoStream">
             <summary>
             Defines for the current Stdio Stream
@@ -648,6 +906,31 @@
             <remarks>Unlike the Forms or Threading Timers, if the device is asleep when the Tick occurs, the device will wake and the Tick handler will run.</remarks>
             </summary>
         </member>
+        <member name="M:OpenNETCF.WindowsCE.LargeIntervalTimer.#ctor">
+            <summary>
+            Creates an instance of a LargeIntervalTimer with a default interval of 60 seconds
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.LargeIntervalTimer.Finalize">
+            <summary>
+            Finalizes the LargeIntervalTimer 
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.LargeIntervalTimer.Dispose">
+            <summary>
+            When overridden in a derived class, releases the unmanaged resources used by the LargeIntervalTimer, and optionally releases the managed resources.
+            </summary>
+        </member>
+        <member name="E:OpenNETCF.WindowsCE.LargeIntervalTimer.Tick">
+            <summary>
+            Raised when the LargeIntervalTimer period has elapsed
+            </summary>
+        </member>
+        <member name="P:OpenNETCF.WindowsCE.LargeIntervalTimer.OneShot">
+            <summary>
+            If set, the Timer will automatically disable itself after each Tick event is raised
+            </summary>
+        </member>
         <member name="P:OpenNETCF.WindowsCE.LargeIntervalTimer.Enabled">
             <summary>
             Gets or sets whether the Timer is currently running
@@ -656,18 +939,19 @@
         <member name="P:OpenNETCF.WindowsCE.LargeIntervalTimer.Interval">
             <summary>
             Gets or sets the TimeSpan interval between ticks.
-            <remarks>Note that the resolution of the underlying notification timer used is not conducive to millisecond accuracy so any sub-second portion of the Interval is ignored.</remarks>
             </summary>
-        </member>
-        <member name="P:OpenNETCF.WindowsCE.LargeIntervalTimer.OneShot">
-            <summary>
-            If set, the Timer will automatically disable itself after each Tick event is raised
-            </summary>
+            <remarks>
+            Note that the resolution of the underlying notification timer used is not conducive to millisecond accuracy so any sub-second portion of the Interval is ignored.
+            The Interval also cannot be less than 15 seconds.
+            </remarks>
         </member>
         <member name="P:OpenNETCF.WindowsCE.LargeIntervalTimer.FirstEventTime">
             <summary>
             Sets or get the absolute time for the first Tick event.  This is useful when setting up a periodic tick starting at a fixed time
             </summary>
+            <remarks>
+            The first tick cannot be less than 15 seconds into the future or it will either fire immediately or never fire.
+            </remarks>
         </member>
         <member name="T:OpenNETCF.WindowsCE.Notification.UserNotificationTrigger">
             <summary>
@@ -1371,6 +1655,26 @@
             Contains information about notification events.
             </summary>
         </member>
+        <member name="F:OpenNETCF.WindowsCE.Notification.UserNotificationInfoHeader.hNotification">
+            <summary>
+            Notification handle
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.Notification.UserNotificationInfoHeader.dwStatus">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.Notification.UserNotificationInfoHeader.pcent">
+            <summary>
+            Notification trigger
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.Notification.UserNotificationInfoHeader.pceun">
+            <summary>
+            Notification object
+            </summary>
+        </member>
         <member name="M:OpenNETCF.WindowsCE.Notification.UserNotificationInfoHeader.#ctor">
             <summary>
             Create a new instance of UserNotificationInfoHeader
@@ -1451,6 +1755,48 @@
             Fired when the device receives a notification that it has entered an idle power state
             </summary>
         </member>
+        <member name="T:OpenNETCF.WindowsCE.TZData">
+            <summary>
+            Timezone Data
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.TZData.#ctor(System.IntPtr)">
+            <summary>
+            Creates a TZData instance
+            </summary>
+            <param name="pData"></param>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.TZData.Name">
+            <summary>
+            Timezone's full name
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.TZData.DSTName">
+            <summary>
+            Timezone's DST name
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.TZData.ShortName">
+            <summary>
+            Timezone's short name
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.TZData.GMTOffset">
+            <summary>
+            Timezone's offset from GMT (in minutes)
+            </summary>
+        </member>
+        <member name="F:OpenNETCF.WindowsCE.TZData.DSTOffset">
+            <summary>
+            Timezone's DST offset (in minutes)
+            </summary>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.TZData.ToString">
+            <summary>
+            Returns the timezone's short name
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:OpenNETCF.WindowsCE.SystemInfo">
             <summary>
             This structure contains information about the current computer system. This includes the processor type, page size, memory addresses, and OEM identifier.
@@ -1514,6 +1860,11 @@
             time zone picker controls, etc.
             </summary>
         </member>
+        <member name="F:OpenNETCF.WindowsCE.TimeZoneCollection.ALL_TIMEZONES_LIST">
+            <summary>
+            All timezones
+            </summary>
+        </member>
         <member name="M:OpenNETCF.WindowsCE.TimeZoneCollection.#ctor">
             <summary>
             Creates a new instance of TimeZoneCollection
@@ -1559,6 +1910,13 @@
             Create a new instance of the TimeZoneInformation class based on data in the supplied Byte Array.
             </summary>
             <param name="bytes">Byte Array containing <b>TIME_ZONE_INFORMATION</b> data.</param>
+        </member>
+        <member name="M:OpenNETCF.WindowsCE.TimeZoneInformation.#ctor(System.Byte[],System.Int32)">
+            <summary>
+            Creates a TimeZoneInformation instance
+            </summary>
+            <param name="bytes"></param>
+            <param name="offset"></param>
         </member>
         <member name="M:OpenNETCF.WindowsCE.TimeZoneInformation.ToString">
             <summary>

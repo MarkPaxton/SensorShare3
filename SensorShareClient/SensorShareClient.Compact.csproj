@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3E456206-E658-4C35-9A37-4F6677508EA2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -57,14 +57,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
-    <Reference Include="OpenNETCF, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+    <Reference Include="OpenNETCF, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.dll</HintPath>
     </Reference>
-    <Reference Include="OpenNETCF.Net, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
-      <Private>False</Private>
+    <Reference Include="OpenNETCF.Drawing, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="OpenNETCF.Windows.Forms, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
-    <Reference Include="OpenNETCF.WindowsCE, Version=2.2.0.0, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL" />
+    <Reference Include="OpenNETCF.Net, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Windows.Forms, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.WindowsCE, Version=2.3.0.39, Culture=neutral, PublicKeyToken=e60dbea84bb431b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Smart Device Framework\Bin\OpenNETCF.WindowsCE.dll</HintPath>
+    </Reference>
     <Reference Include="System, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac, processorArchitecture=MSIL" />
@@ -112,6 +124,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\mcp-Shared\mcp.Compact\mcp.Compact.csproj">
+      <Project>{D12F0DF1-B616-4D74-803A-5B19C629F91D}</Project>
+      <Name>mcp.Compact</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\mcp-Shared\mcp\mcp.csproj">
+      <Project>{EDE38B18-BDA3-480B-AB23-ED1CC2A2CC66}</Project>
+      <Name>mcp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Log\Logs.csproj">
       <Project>{B56EBCA1-DFB7-4158-8158-E04E68A16E56}</Project>
       <Name>Logs</Name>
@@ -119,6 +139,10 @@
     <ProjectReference Include="..\Networking\NetworkNode.csproj">
       <Project>{89AB6B36-BDFB-48FB-ACFD-B506D4B5D50A}</Project>
       <Name>NetworkNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SensorShare\SensorShare.csproj">
+      <Project>{02C633B0-6169-4C91-80DE-49DA9451D96C}</Project>
+      <Name>SensorShare</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

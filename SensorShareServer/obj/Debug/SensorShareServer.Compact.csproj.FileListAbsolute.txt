@@ -21,4 +21,11 @@ C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareSer
 C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.SensorShareServer.resources
 C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShare.Compact.ServerConfig.resources
 C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.Compact.csproj.GenerateResource.Cache
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SQLite.Interop.061.DLL
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\defaultImage.jpg
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\sensors.db
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareServer.db
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareServer.exe
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\bin\Debug\Compact\SensorShareServer.pdb
+C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.exe
 C:\Users\pszmp\Documents\Visual Studio 2008\Projects\SensorShare3\SensorShareServer\obj\Debug\SensorShareServer.pdb
