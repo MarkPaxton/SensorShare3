@@ -32,25 +32,27 @@ namespace SensorShare.Compact
          InitializeComponent();
 
          #region Copy databases if needed
-         if (!Directory.Exists(SensorNetConfig.DatabaseFolder))
+         if (!Directory.Exists(SensorShareConfig.DatabaseFolder))
          {
-            Debug.WriteLine("Creating: " + SensorNetConfig.DatabaseFolder);
-            Directory.CreateDirectory(SensorNetConfig.DatabaseFolder);
+             Debug.WriteLine("Creating: " + SensorShareConfig.DatabaseFolder);
+             Directory.CreateDirectory(SensorShareConfig.DatabaseFolder);
          }
-         if (!File.Exists(SensorNetConfig.DatabaseFolder + "\\" + SensorNetConfig.ClientDatabase))
+         if (!File.Exists(SensorShareConfig.DatabaseFolder + "\\" + SensorShareConfig.ClientDatabase))
          {
-            Debug.WriteLine("Copying database to " + SensorNetConfig.DatabaseFolder + "\\" + SensorNetConfig.ClientDatabase);
-            File.Copy(Application2.StartupPath + "\\" + SensorNetConfig.ClientDatabase,
-               SensorNetConfig.DatabaseFolder + "\\" + SensorNetConfig.ClientDatabase);
+             Debug.WriteLine("Copying database to " + SensorShareConfig.DatabaseFolder + "\\" + SensorShareConfig.ClientDatabase);
+             File.Copy(Application2.StartupPath + "\\" + SensorShareConfig.ClientDatabase,
+               SensorShareConfig.DatabaseFolder + "\\" + SensorShareConfig.ClientDatabase);
          }
-         database = DatabaseHelper.ConnectToSQL("Data Source=\"" +
-            SensorNetConfig.DatabaseFolder + "\\" + SensorNetConfig.ClientDatabase + "\"");
+
+
+         database = new SQLiteConnection("Data Source=\"" +
+            SensorShareConfig.DatabaseFolder + "\\" + SensorShareConfig.ClientDatabase + "\"");
          #endregion
 
          SetUpWorkings();
       }
 
-      private void SensorNetClient_Load(object sender, EventArgs e)
+      private void SensorShareClient_Load(object sender, EventArgs e)
       {
          log.Append("StartServer", "Starting on " + ClientID.ToString());
          StartClient();

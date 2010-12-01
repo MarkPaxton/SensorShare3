@@ -35,6 +35,8 @@ namespace SensorShare.Compact
       bool takeReadings = false;
       TimerCallback readASCIITimerCallback;
 
+      TextBoxDelegate textboxDelegate = new TextBoxDelegate(TextHelper.UpdateTextBox);
+
       public SensorShareServer()
       {
          InitializeComponent();
@@ -169,6 +171,26 @@ namespace SensorShare.Compact
                }
             }
          }
+      }
+
+      private void startReadingsMenuItem_Click(object sender, EventArgs e)
+      {
+          StartTakingReadings();
+      }
+
+      private void DoUpdateTextBox(TextBox box, String text, int lines)
+      {
+          if (!box.IsDisposed)
+          {
+              if (box.InvokeRequired)
+              {
+                  box.Invoke(textboxDelegate, box, text, lines);
+              }
+              else
+              {
+                  textboxDelegate(box, text, lines);
+              }
+          }
       }
    }
 }

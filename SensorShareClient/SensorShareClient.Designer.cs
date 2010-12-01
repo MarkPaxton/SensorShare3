@@ -61,7 +61,7 @@
          this.Menu = this.mainMenu;
          this.Name = "SensorNetClient";
          this.Text = "SensorNetClient";
-         this.Load += new System.EventHandler(this.SensorNetClient_Load);
+         this.Load += new System.EventHandler(this.SensorShareClient_Load);
          this.Closed += new System.EventHandler(this.SensorNetClient_Closed);
          this.Closing += new System.ComponentModel.CancelEventHandler(this.SensorNetClient_Closing);
          this.ResumeLayout(false);

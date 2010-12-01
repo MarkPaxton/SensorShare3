@@ -12,7 +12,7 @@ namespace SensorShare.Compact
       {
          NetworkInterface[] adapters = null;
 
-         adapters = WirelessZeroConfigNetworkInterface.GetAllNetworkInterfaces();
+         adapters = ( NetworkInterface[]) WirelessZeroConfigNetworkInterface.GetAllNetworkInterfaces();
          EAPParameters eapParam = new EAPParameters();
          eapParam.Enable8021x = false;
          foreach (NetworkInterface adapterToCast in adapters)
@@ -20,17 +20,17 @@ namespace SensorShare.Compact
             if (adapterToCast.NetworkInterfaceType == NetworkInterfaceType.Wireless80211)
             {
                WirelessZeroConfigNetworkInterface adapter = (WirelessZeroConfigNetworkInterface)adapterToCast;
-               if (adapter.AssociatedAccessPoint != SensorNetConfig.WiFiName)
+               if (adapter.AssociatedAccessPoint != SensorShareConfig.WiFiName)
                {
                   //log.Append("InitialiseWiFi", "Setting Wireless Settings");
                   try
                   {
-                     if (adapter.AssociatedAccessPoint != SensorNetConfig.WiFiName)
+                      if (adapter.AssociatedAccessPoint != SensorShareConfig.WiFiName)
                      {
-                        adapter.AddPreferredNetwork(SensorNetConfig.WiFiName, false, SensorNetConfig.WiFiKey, 1,
+                         adapter.AddPreferredNetwork(SensorShareConfig.WiFiName, false, SensorShareConfig.WiFiKey, 1,
                             AuthenticationMode.WPAAdHoc,
                             WEPStatus.WEPEnabled, eapParam);
-                        adapter.ConnectToPreferredNetwork(SensorNetConfig.WiFiName);
+                         adapter.ConnectToPreferredNetwork(SensorShareConfig.WiFiName);
                      }
                   }
                   catch (Exception ex)
@@ -85,7 +85,7 @@ namespace SensorShare.Compact
          log.Append("DeviceManagement_NetworkConnected", logMessage);
 
          // List adaptors and check for valid IP addresses
-         NetworkInterface[] adapters = NetworkInterface.GetAllNetworkInterfaces();
+         NetworkInterface[] adapters = (NetworkInterface[]) NetworkInterface.GetAllNetworkInterfaces();
          foreach (NetworkInterface adapter in adapters)
          {
             if (!adapter.CurrentIpAddress.Equals(IPAddress.Any))

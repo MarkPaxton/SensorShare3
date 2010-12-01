@@ -45,7 +45,7 @@ namespace SensorShare.Compact
          aliveServers.ItemExpired += new ItemExpiredEventHandler(aliveServers_ItemExpired);
 
          ClientID = Guid.NewGuid();
-         networkNode = new NetworkNode(ClientID, IPAddress.Any, SensorNetConfig.CommunicationPort);
+         networkNode = new NetworkNode(ClientID, IPAddress.Any, SensorShareConfig.CommunicationPort);
          networkNode.MessageReceived += receiveHandler;
       }
 
@@ -92,7 +92,7 @@ namespace SensorShare.Compact
 
       private void aliveServers_ItemExpired(ItemExpiredEventArgs args)
       {
-         foreach (ServerConfigData data in args.Items)
+         foreach (ServerData data in args.Items)
          {
             log.Append("aliveServers_ItemExpired", "Removed " + data.id.ToString());
             serverTimeDifferences.Remove(data.id);
@@ -102,7 +102,7 @@ namespace SensorShare.Compact
 
       private void NewAliveServer(Guid server_id)
       {
-         ServerConfigData server_data = DatabaseHelper.GetServerByID(database, server_id);
+         ServerData server_data = DatabaseHelper.GetServerByID(database, server_id);
          if (server_data == null)
          {
             log.Append(String.Format("Sending description request for {0}", server_id));
@@ -116,7 +116,7 @@ namespace SensorShare.Compact
          }
       }
 
-      private void AddAliveServer(ServerConfigData server)
+      private void AddAliveServer(ServerData server)
       {
          log.Append(String.Format("Showing {0}:{1}", server.name, server.id));
          aliveServers.AddItem(server, server.id);
@@ -130,7 +130,7 @@ namespace SensorShare.Compact
          if (aliveServers.GetItem(sender_id) == null)
          {
             bool alreadySaved = DatabaseHelper.GetServerSaved(database, sender_id);
-            ServerConfigData serverData = new ServerConfigData(sender_id, description.Name, description.Location, description.Description, description.PictureBytes);
+            ServerData serverData = new ServerData(sender_id, description.Name, description.Location, description.Description, description.Sensors, description.PictureBytes);
             if (alreadySaved == false)
             {
                DatabaseHelper.SaveServerConfigData(database, serverData);

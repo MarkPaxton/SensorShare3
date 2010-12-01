@@ -52,6 +52,36 @@
             This is a modal dialog box.
             </remarks>
             <returns>A <b>DialogResult</b> value.</returns>
+            <example> 
+            <para>
+            This sample shows how to call and display the custom dialog box for selecting pictures. 
+            The resulting dialog will:
+            </para>
+            <list type="bullet">
+            <item>
+            <description>Filter out image files by displaying only .JPG and .BMP files.</description>
+            </item>
+            <item>
+            <description>
+            Launch the dialog in the '\My Device\My Images' directory.
+            </description>
+            </item>
+            <item>
+            <description>
+            Display a custom title.
+            </description>
+            </item>
+            </list>
+            <code>
+            SelectPictureDialog pickerDialog = new SelectPictureDialog();
+            
+            pickerDialog.Filter = "Image Files(*.BMP;*.JPG)|*.BMP;*.JPG";
+            pickerDialog.InitialDirectory = @"\My Device\My Images";
+            pickerDialog.Title ="Select an image file";
+            
+            pickerDialog.ShowDialog();
+            </code>
+            </example>
         </member>
         <member name="M:Microsoft.WindowsMobile.Forms.SelectPictureDialog.#ctor">
             <summary>
@@ -71,6 +101,7 @@
             <value>A description of each
             filtering option, followed by the vertical Bar (|), followed by the filter pattern.
             Multiple filtering options are also separated by the vertical bar.  For example, "Bitmap Files|*.BMP|JPG Files|*.JPG"</value>
+            <exception cref="T:System.ArgumentException">Thrown when attempting to set an invalid filter.</exception>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.FilterIndex">
             <summary>
@@ -88,7 +119,7 @@
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.LockDirectory">
             <summary>
-            Gets or sets a value indicating whether the user can browse to directories other than the <b>InitialDirectory</b>.
+            Not supported. Gets or sets a value indicating whether the user can browse to directories other than the <b>InitialDirectory</b>.
             </summary>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.ShowDrmContent">
@@ -101,6 +132,26 @@
             Gets or sets a value indicating whether Digital Rights Management (DRM) protected files that are protected such that they cannot be forwarded, are displayed.
             </summary>
         </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.MessagingFileCreate">
+            <summary>
+            Gets or sets a value indicating whether the user want captured picture or video is fitted into a Multimedia short message.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.CameraCaptureVideoOnly">
+            <summary>
+            Gets or sets a value indicating whether the user want to capture video without audio.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.CameraCaptureVideoWithAudio">
+            <summary>
+            Gets or sets a value indicating whether the user want to capture video with audio.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.CameraCaptureVideoDefault">
+            <summary>
+            Gets or sets a value indicating the user wants to use the default audio setting when capture video.
+            </summary>
+        </member>
         <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.Title">
             <summary>
             Gets or sets the title of the Select Picture dialog box.
@@ -111,11 +162,13 @@
             <summary>
             Gets or sets the order in which files are sorted in the Select Picture dialog box.
             </summary>
+            For information on the SortOrder enumeration, <see cref="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.SortOrder"/>
             <value></value>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown when attempting to set a value that is out of range.</exception>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.CameraAccess">
             <summary>
-            Gets or sets a value indicating whether the user is given access to the camera, from the Select Picture dialog box.
+            Not supported. Gets or sets a value indicating whether the user is given access to the camera, from the Select Picture dialog box.
             </summary>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.SelectPictureDialog.Owner">
@@ -133,6 +186,27 @@
             <summary>
             Displays the Contact Chooser dialog box.
             </summary>
+            <exception cref="T:System.ArgumentException">Thrown when <b>RequiredProperties</b> is not set, and <b>ChoosePropertyOnly</b> is true.</exception>
+            <exception cref="T:System.ArgumentException">Thrown when <b>SelectedContact</b> is not a valid Contact object and <b>ChoosePropertyOnly</b> is true.</exception>
+            <exception cref="T:System.ArgumentException">Thrown when there are any other argument errors.</exception>
+            <returns>The dialog result for the form.
+            For more information, see 
+            <A HREF="http://msdn.microsoft.com/library/en-us/cpref/html/frlrfSystemWindowsFormsControlClassTopic.asp">Form.DialogResult Property</A> 
+            in the .NET Framework Class Library on MSDN.
+            </returns>
+            <example>
+            This example shows how to call and display a custom dialog box for choosing Contacts.
+            The resulting dialog will also display a custom title.
+            <code>
+            ChooseContactDialog contactPicker = new ChooseContactDialog();
+            
+            contactPicker.Title = "Choose a Contact below:";
+            contactPicker.ChooseContactOnly = true;
+            contactPicker.ShowDialog();
+            
+            Console.WriteLine("The contact selected was {0}.", contactPicker.SelectedContactName);
+            </code>
+            </example>
         </member>
         <member name="M:Microsoft.WindowsMobile.Forms.ChooseContactDialog.#ctor">
             <summary>
@@ -190,6 +264,36 @@
             ChooseContactOnly to <b>false</b>
             </remarks>
         </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.ChooseContactDialog.FilterRequiredProperties">
+            <summary>
+            Gets or sets a value indicating whether the user wants to filter on certain properties.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.ChooseContactDialog.NoUIOnSingleOrNoMatch">
+            <summary>
+            Gets or sets a value indicating whether the user wants to show  the Contact Chooser, 
+            or the Property Chooser dialog boxes display for a single match, 
+            or for no matches
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.ChooseContactDialog.NoUI">
+            <summary>
+            Gets or sets a value indicating whether the user wants to show the contact chooser
+            or the property chooser dialogs.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.ChooseContactDialog.EnableGlobalAddressListLookup">
+            <summary>
+            Gets or sets a value indicating whether the user wants to allow 
+            Global Address List lookups.
+            </summary>
+        </member>
+        <member name="P:Microsoft.WindowsMobile.Forms.ChooseContactDialog.AllowNewContactSelection">
+            <summary>
+            Gets or sets a value indicating whether the caller wants to allow
+            the user to select 'New Contact' instead of a specific contact.
+            </summary>
+        </member>
         <member name="P:Microsoft.WindowsMobile.Forms.ChooseContactDialog.RequiredProperties">
             <summary>
             Gets or sets the <b>ContactProperty</b> array values that specify which properties a Contact must have in order to be shown in the Contact Chooser dialog box.
@@ -223,81 +327,230 @@
             Gets or sets the owner control.
             </summary>  
         </member>
+        <member name="T:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags">
+            <summary>
+            Specifies Contact Chooser options.
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.Default">
+            <summary>
+            Default view
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.HideNew">
+            <summary>
+            Allows the user to disable create a new Contact from the Contact Chooser control
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.ChooseContactOnly">
+            <summary>
+            Select the first non empty item for multiple matches
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.ChoosePropertyOnly">
+            <summary>
+            When set, the Contact Chooser dialog box does not appear.
+            The OID of the Contact to use is retrieved from the oidContactID property
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.ReturnContactName">
+            <summary>
+            The Contact name is returned in the bstrContactName property
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.ReturnPropertyValue">
+            <summary>
+            The property value is returned in the bstrPropertyValueSelected property
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.FilterRequiredProperties">
+            <summary>
+            Filter required properties
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.NoUIOnSingleOrNoMatch">
+            <summary>
+            Neither the Contact Chooser, nor the Property Chooser dialog boxes display for a single match, 
+            or for no matches
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.NoUI">
+            <summary>
+            Neither the Contact Chooser, nor the Property Chooser dialog boxes display
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.EnableGlobalAddressListLookup">
+            <summary>
+            Enable the "Find Online" option to perform Global Address List lookup.
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.Forms.ChooseContactDialog.ChooseContactDialogFlags.AllowNewContactSelection">
+            <summary>
+            Allow the user to select 'New Contact' instead of a specific contact.
+            </summary>
+        </member>
         <member name="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode">
             <summary>
-            The capture mode of CameraCaptureDialog.
+            The <b>CameraCaptureMode</b> enumeration specifies the camera mode used for image capture.
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureMode.Still">
             <summary>
-            Dialog takes a still picture.
+            Capture a still image. This is the default. Value = 0.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureMode.VideoOnly">
             <summary>
-            Dialog takes a video without audio.
+            Capture a video clip without audio.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureMode.VideoWithAudio">
             <summary>
-            Dialog takes a video with audio.
+            Capture a video clip with audio.
             </summary>
         </member>
         <member name="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality">
             <summary>
-            The still quality of CameraCaptureDialog.
+            The <b>CameraCaptureStillQuality</b> enumeration specifies the compression level used for still image capture.
             </summary>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality.Default">
             <summary>
-            Default quality, user last selected in options dialog.
+            Capture a still image using the default compression level. 
+            This is the quality last selected by the user in <b>Picture &amp; Video</b> &gt; <b>Camera Options</b> &gt; <b>Still image compression level:</b>. 
+            This is the default value.  Value = 0.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality.Low">
             <summary>
-            Low quality.
+            Capture a still image using the <b>Low Quality</b> compression level.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality.Normal">
             <summary>
-            Normal quality.
+            Capture a still image using the <b>Normal Quality</b> compression level.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality.High">
             <summary>
-            High quality.
+            Capture a still image using the <b>High Quality</b> compression level.
             </summary>
         </member>
         <member name="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes">
             <summary>
-            The video types of CameraCaptureDialog.
+            The <b>CameraCaptureVideoTypes</b> enumeration defines the purpose of the video.
             </summary>
+            <remarks>
+            Multimedia Messaging Service (MMS) applications must be able to capture video 
+            that meets criteria specific to multimedia messaging. 
+            To accommodate this, it is up to the mobile device Original Equipment Manufacturer (OEM) 
+            to register Video Profiles for each of the Video Types (All, Standard, and Messaging). 
+            To be compliant, you just need to create a <see cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/> object  
+            with a Video Type and video resolution that matches one of the Video Profiles.
+            <para>
+            <ul>
+            <li>
+            <b>Video Type</b> specifies whether the video should be recorded in a format 
+            that is compatible with video messaging (usually encoded in either <A HREF="http://www.m4if.org/mpeg4/?frame=false">MPEG4</A> 
+            format or <A HREF="http://www.itu.int/home/?frame=true">H.263</A> format), 
+            or for use in home videos and e-mail messaging (usually encoded in Windows Media Video 
+            (<A HREF="http://www.microsoft.com/windows/windowsmedia/default.aspx">WMV</A>) format).
+            </li>
+            <li>
+            <b>Video Profiles</b> are registry settings that contain a combination of Video Type, video encoder, 
+            video resolution, and a profile name.
+            </li>
+            </ul>
+            </para>
+            <para>
+            When you ceate a <see cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/> object, the Video Type and video resolution that you specify 
+            are matched to a corresponding Video Profile to determine which Video Profile is used to initialize video capture mode. 
+            Your <see cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/> value is logically ANDed (&amp;) with the <b>VideoType</b> value 
+            in each registered profile (e.g., "VideoType:DWORD = 0x0002" for messaging). 
+            Of those that produce a 1, the video resolutions are then compared. 
+            If a matching Video Profile is found, then it is used to initialize video capture mode. 
+            If one cannot be found, then an <b>System.ArgumentException</b> exception is raised. 
+            In this case, you should just create a <see cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/> object again, 
+            this time with a <b>VideoTypes</b> value of <b>All</b> (0xFFFF), and no specified video resolution; 
+            the first supported video resolution will then be used.
+            </para>
+            <para>
+            <b>Note</b>   For more information on defining Video Profiles, 
+            see the section on <b>Video Profiles</b> in <b>Camera, Pictures and Videos Registry Settings</b>.
+            </para>
+            <example>
+            The following example demonstrates a typical video profile registration.
+            <code>
+            HKEY_LOCAL_MACHINE\Software\Microsoft\Pictures\Camera\OEM\VideoProfile\1
+            ItemString:String = "MMS (174x144)"
+            VideoType:DWORD = 0x0002 ; For messaging
+            Width:DWORD = 176
+            Height:DWORD = 144
+            </code>
+            </example>
+            <para>
+            You can estimate the video file size that meets the time-limit restriction by specifying a particular video resolution.
+            </para>
+            <para>
+            Each Video Profile is listed as an option for the user in <b>Pictures &amp; Video</b> &gt; <b>Menu</b> &gt; <b>Quality</b>.
+            </para>
+            </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes.All">
             <summary>
-            When used, only consider resolution when matching video profiles.
-            If either width or height of resolution is 0, the one user last selected will be used.
+            Only the resolution is used when matching video profiles.
+            If resolution width and height both equal 0, and a <b>CameraCaptureVideoTypes</b> value of <b>All</b> is used, 
+            then the user's last selected resolution is used. 
+            Value = 0xFFFF.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes.Standard">
             <summary>
-            Used for generic purpose with high quality video output, such as produced by WMV encoder.
+            Produces high-quality video clips used for home movies and e-mail video messaging, 
+            using a video encoder such as the Windows Media encoder. 
+            For a <b>CameraCaptureVideoTypes</b> value of <b>Standard</b>, 
+            neither resolution width nor height can equal 0.
+            Value = 1.
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes.Messaging">
             <summary>
-            Used for messaging service, such as MMS that need 3GPP conformance encoder.
+            Produces video clips used for Multimedia Messaging Service (MMS) video messaging, 
+            which require a video encoder that conforms to the 
+            <A HREF="http://www.3gpp.org/?frame=true">3rd Generation Partnership Project (3GPP)</A> specification. 
+            For a <b>CameraCaptureVideoTypes</b> value of <b>Messaging</b>, 
+            neither resolution width nor height can equal 0.
+            Value = 2.
             </summary>
         </member>
         <member name="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog">
             <summary>
-            CameraCaptureDialog class that wrap <b>SHCameraCapture</b> to launch camera capture dialog.
+            The <b>CameraCaptureDialog</b> class launches the Camera Capture dialog box, 
+            which allows the user to capture still images and video clips.
             </summary>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
         </member>
         <member name="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.#ctor">
             <summary>
             Initializes a new instance of <b>CameraCaptureDialog</b> class.
             </summary>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
         </member>
         <member name="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.AllocUnmanagedBuffer(System.Int32)">
             <summary>
@@ -305,6 +558,8 @@
             </summary>
             <param name="bytes">Number of bytes to allocate.</param>
             <returns>Unmanaged buffer allocated with specified length.</returns>
+            <exception cref="T:System.ArgumentException">Thrown when attempting to allocate an invalid number of bytes.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when the attempt to allocate the unmanaged buffer, fails.</exception>
         </member>
         <member name="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ToUnmanagedString(System.String)">
             <summary>
@@ -319,14 +574,23 @@
             </summary>
             <param name="ptrStruct">Struct parameter for unmanaged camera capture API.</param>
             <returns>One of the DialogResult values.</returns>
+            <exception cref="T:System.OutOfMemoryException">Thrown when the operation runs out of memory.</exception>
+            <exception cref="T:System.ArgumentException">Thrown when an invalid argument is specified.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when an unknown error occurrs.</exception>
         </member>
         <member name="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog">
             <summary>
-            Displays the "Camera Capture" dialog box.
+            Displays the "Camera Capture" dialog box,
+            which allows the user to capture still images and video clips.        
             </summary>
-            <returns>One of the <b>DialogResult</b> values.</returns>
+            <returns>One of the <b>DialogResult</b> values (either <b>OK</b> or <b>Cancel</b>).</returns>
             <exception cref="T:System.OutOfMemoryException">Thrown when operation ran out of memory.</exception>
-            <exception cref="T:System.ArgumentException">Thrown when an invalid argument was specified.</exception>
+            <exception cref="T:System.ArgumentException">
+            Thrown when an invalid argument was specified.
+            <b>Note</b>: There is only one valid video resolution on Smartphone. 
+            As a result, a value of <b>CameraCapturevideoTypes.Messaging</b> can produce 
+            an <b>ArgumentException</b> exception on Smartphone.
+            </exception>
             <exception cref="T:System.InvalidOperationException">Thrown when an unknown error occurred.</exception>
             <remarks>
             This is a modal dialog box.
@@ -342,7 +606,7 @@
             cameraCapture.Title = "Camera Demo";
             cameraCapture.VideoTypes = CameraCaptureVideoTypes.Messaging;
             cameraCapture.Resolution = new Size(176, 144);
-            cameraCapture.VideoTimeLimit = new TimeSpan(0, 0, 15);
+            cameraCapture.VideoTimeLimit = new TimeSpan(0, 0, 15);  // Limited to 15 seconds of video.
             cameraCapture.Mode = CameraCaptureMode.VideoWithAudio;
             
             if (DialogResult.OK == cameraCapture.ShowDialog())
@@ -351,105 +615,267 @@
             }
             </code>
             </example>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>  
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner">
             <summary>
-            Gets or sets the control that owns this component.
+            Gets or sets the control that owns the <b>CameraCaptureDialog</b> component.
             </summary>
             <value>A control object that owns this component.</value>
             <remarks>
-            This property value can be <b>null</b>.
+            The value of <b>Owner</b> can be NULL.
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.FileName"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.FileName">
             <summary>
-            Gets the full path filename of the picture or video captured.
+            Gets the fully-qualified pathname of the image file or video file.
             </summary>
-            <value>The full path filename of the picture or video captured.</value>
+            <value>The fully-qualified pathname of the image file or video file.</value>
             <remarks>
-            If dialog returns <b>DialogResult.OK</b>, this is set to the full path filename of the picture or video captured.
+            If the <b>ShowDialog</b> method returns <b>DialogResult.OK</b>, 
+            then <b>FileName</b> is set to the fully-qualified pathname of the captured still image or video clip.
+            Up to 260 characters can be returned.
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory">
             <summary>
-            Gets or sets the directory to store new picture or video.
+            Gets or sets the name of the directory for storing the captured image or video file.
             </summary>
-            <value>The directory to store new picture or video.</value>
+            <value>Specifies the name of the directory for storing the captured image or video file.</value>
             <remarks>
-            If <b>null</b>, we store the picture the directory defined in the Pictures application options.
-            <p>If the directory doesn't exist, <b>System.ArgumentException</b> will be thrown out.</p>
+            If <b>NULL</b>, the image or video file is stored in the directory specified in 
+            <b>Picture &amp; Video</b> &gt; <b>Camera Options</b> &gt; <b>Save files to:</b>.
+            If the directory does not exist, a <b>System.ArgumentException</b> exception is raised.
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName">
             <summary>
-            Gets or sets the filename to store new picture or video.
+            Gets or sets the still image or video image file name.
             </summary>
-            <value>The filename to store new picture or video.</value>
+            <value>The file name used to store the captured still image or video image.</value>
             <remarks>
-            If <b>null</b>, we use the file name defined in the picture application options.
-            <p>If the file already exists, we will overwrite it.</p>
+            Still images on Windows Mobile devices conform to the <A HREF="http://www.jpeg.org/?frame=false">JPEG</A> standard. 
+            As a result, file names for still images must end in <i>*.jpg</i>. 
+            There is no restriction for naming video files, other than the file format must be supported 
+            by <A HREF="http://www.microsoft.com/windows/windowsmedia/player/windowsmobile/default.aspx?frame=false">Windows Media Player Mobile</A>. 
+            Since different video encoders can use differing naming conventions, it is important that the file name has the correct extension. 
+            To be safe, you can simply use NULL when naming Video files.
+            If <b>DefaultFileName</b> is NULL, then the file name specified in <b>Picture &amp; Video</b> &gt; <b>Camera Options</b> &gt; <b>Type filename prefix:</b> is used. 
+            If the file already exists, it is overwritten. 
+            The combination of <b>InitialDirectory</b> and <b>DefaultFileName</b> must not exceed 256 characters.
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title">
             <summary>
-            Gets or sets dialog title.
+            Gets or sets the title of the Camera Capture dialog box.
             </summary>
-            <value>The dialog title.</value>
+            <value>The title of the Camera Capture dialog box.</value>
             <remarks>
-            If <b>null</b>, a default title is displayed. The default title is "Camera".
-            <p>On Smartphone, the first time the user enters the Camera View, the title bar displays the text specified with the <b>CameraCaptureDialog.Title</b> property (by default: "Camera").</p>
-            <p>On Pocket PC, the title bar should be the name of the calling application. However, the settings header text displays the text specified with the <b>CameraCaptureDialog.Title</b> property (by default: "Camera").</p>
+            If <b>NULL</b>, a default title is displayed. The default title is "Camera".
+            <p>On Smartphone, the first time the user enters the Camera View, 
+            the title bar displays the text specified with the <b>CameraCaptureDialog.Title</b> property.</p>
+            <p>On Pocket PC, the title bar should be the name of the calling application. 
+            However, the settings header text displays the text specified with the <b>CameraCaptureDialog.Title</b> property.</p>
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality">
             <summary>
-            Gets or sets the still quality.
+            Gets or sets the still image quality.
             </summary>
-            <value>The still quality.</value>
+            <value>
+            One of the <b>CameraCaptureStillQuality</b> enumeration values, which specifies the compression level used for still image capture. 
+            For more information, see <see cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>.
+            </value>
             <remarks>
-            The default is the quality the user selected last in the options dialog.
-            <p>If the value is not defined in <b>CameraCaptureStillQuality</b> enumeration, <b>System.ArgumentException</b> will be thrown out.</p>
+            The default value is <b>CameraCaptureStillQuality::Default</b>, which is the quality last selected by the user in 
+            <b>Picture &amp; Video</b> &gt; <b>Camera Options</b> &gt; <b>Still image compression level:</b>.
+            <p>If the value is not defined in <b>CameraCaptureStillQuality</b> enumeration, <b>System.ArgumentException</b> is raised.</p>
             </remarks>
+            <exception cref="T:System.ArgumentException">Thrown when attempting to set an invalid camera capture still quality.</exception>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes">
             <summary>
-            Gets or sets the video types.
+            Gets or sets the video type.
             </summary>
-            <value>The video types.</value>
+            <value>
+            One of the <b>CameraCaptureVideoTypes</b> enumeration values, which specifies a video quality profile (i.e., whether the video clip is to be used by a Multimedia Messaging Service (MMS) application).
+            For more information, see <see cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>.
+            </value>
             <remarks>
-            The default is All type.
-            <p>If the value is not defined in <b>CameraCaptureVideoTypes</b> enumeration, <b>System.ArgumentException</b> will be thrown out.</p>
+            The default value is <b>CameraCaptureVideoTypes::All</b>.
+            <p>If the value is not defined in <b>CameraCaptureVideoTypes</b> enumeration, <b>System.ArgumentException</b> is raised.</p>
             </remarks>
+            <exception cref="T:System.ArgumentException">Thrown when attempting to set an invalid camera capture video type.</exception>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution">
             <summary>
-            Gets or sets the resolution of the image to be taken.
+            Gets or sets the image resolution.
             </summary>
-            <value>The resolution of the image to be taken.</value>
+            <value>The image resolution, as a (width, height) value pair, in pixels.</value>
             <remarks>
             The default is (0, 0).
-            <p>For video mode, if either Width or Height is 0, only <b>VideoTypes</b> will be considered when selecting video profile.</p>
-            <p>For still mode, this value is reserved for future use.</p>
+            For video clips, if either Width or Height is 0, only <b>VideoTypes</b> will be considered when selecting video profile (i.e., <b>Resolution</b> is ignored).
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/> 
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit">
             <summary>
-            Gets or sets time limit when taking video.
+            Gets or sets the time-limit for video clips.
             </summary>
-            <value>The time limit when taking video.</value>
+            <value>The maximum length of time in seconds, allowed for a video clip.</value>
             <remarks>
-            0 means no limit. Default is no limit.
+            <b>VideoTimeLimit</b> is a time-interval represented by a <b>TimeSpan</b> object.  
+            For more information, see 
+            <A HREF="http://msdn.microsoft.com/library/en-us/cpref/html/frlrfsystemtimespanclasstopic.asp">TimeSpan Structure</A> on MSDN.
+            <p>A time limit of 0 indicates that there is no limitation. The default is 0 (no limit).</p>
             </remarks>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode"/>
         </member>
         <member name="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Mode">
             <summary>
-            Gets or sets capture mode.
+            Gets or sets the image capture mode.
             </summary>
-            <value>The capture mode.</value>
+            <value>
+            One of the <b>CameraCaptureMode</b> enumeration values, which specifies the camera mode used to initialize the Camera Capture function.
+            For more information, see <see cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>.
+            </value>
             <remarks>
-            The default is still picture capture.
-            <p>If the value is not defined in <b>CameraCaptureMode</b> enumeration, <b>System.ArgumentException</b> will be thrown out.</p>
+            The default value is <b>Still</b>.
+            If the value is not defined in the <b>CameraCaptureMode</b> enumeration, then a <b>System.ArgumentException</b> exception is raised.
             </remarks>
+            <exception cref="T:System.ArgumentException">Thrown when attempting to set an invalid camera capture mode.</exception>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureDialog"/>
+            <seealso cref="M:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.ShowDialog"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureMode"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureStillQuality"/>
+            <seealso cref="T:Microsoft.WindowsMobile.Forms.CameraCaptureVideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Owner"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.InitialDirectory"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.DefaultFileName"/>        
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Title"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.StillQuality"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTypes"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.Resolution"/>
+            <seealso cref="P:Microsoft.WindowsMobile.Forms.CameraCaptureDialog.VideoTimeLimit"/>
         </member>
     </members>
 </doc>

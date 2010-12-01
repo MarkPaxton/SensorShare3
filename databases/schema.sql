@@ -25,3 +25,11 @@ CREATE TABLE [servers] (
     [sensor_3_id] integer NOT NULL ON CONFLICT REPLACE DEFAULT 0,
     [sensor_4_id] integer NOT NULL ON CONFLICT REPLACE DEFAULT 0
 );
+CREATE TABLE [readings] (
+    [server_id] guid NOT NULL,
+    [reading_1] real,
+    [reading_2] real,
+    [reading_3] real,
+    [reading_4] real,
+    [reading_time] datetime NOT NULL ON CONFLICT REPLACE DEFAULT (datetime('now'))
+);

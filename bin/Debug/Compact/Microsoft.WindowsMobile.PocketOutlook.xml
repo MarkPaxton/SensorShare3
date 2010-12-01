@@ -6,7 +6,7 @@
     <members>
         <member name="T:Microsoft.WindowsMobile.PocketOutlook.Account">
             <summary>
-            Defines the account ID, counter, and parent message store for all messaging accounts. This is the base class for EmailAccount and SmsAccount.
+            Defines a generic messaging account. This is the base class for EmailAccount and SmsAccount.
             <remarks>
             Normally you would not work with this class directly. You would use one of the derived classes instead, which provide access to the folders and messages they contain.
             A message store serves as a local archive for storing messages on Windows Mobile devices. One message store is present for each messaging account, and each messaging account is associated with one message transport. For example, you might use a Pocket PC to service three POP3 e-mail accounts. In this scenario, you might have four message stores: one for Outlook e-mail transferred through ActiveSync, two for Outlook e-mail transferred via POP3, and one for text messages transferred via SMS.
@@ -306,6 +306,32 @@
             <summary>
             Gets the PimPropertySet. This object is used for creating custom PIM item properties.
             </summary>
+            <example>
+            You can use Properties to access information on the PimItem or its folder.
+            In this example, a few properties in a contact are set, and then some properties
+            are read.
+            <code>
+            using (OutlookSession mySession = new OutlookSession())
+            {
+              // Create a contact in the Business Category.
+              Contact myContact = new Contact();
+              myContact.Properties[ContactProperty.FirstName] = "Eric";
+              myContact.Properties[ContactProperty.LastName] = "Parkinson";
+              myContact.Properties[ContactProperty.Categories] = "Business";
+              mySession.Contacts.Items.Add(myContact);
+            
+              // Get the contact's first name.
+              string contactFirstName = myContact.Properties[ContactProperty.FirstName].ToString();
+                           
+              // Get the contact's categories, in this case "Business".
+              string contactCategory = myContact.Properties[ContactProperty.Categories].ToString();
+                    
+              // Get the contacts folder categories.
+              // This will include all the categories in the contacts folder.
+              string contactFolderCategories = myContact.Properties[ContactProperty.FolderCategories].ToString();
+            }
+            </code>
+            </example>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.PimItem.ItemId">
             <summary>
@@ -366,8 +392,14 @@
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.Appointment.Delete">
             <summary>
-            Deletes an Appointment by removing it from the Appointment collection.
+            Deletes an Appointment item by removing it from the Appointment collection.
             </summary>
+            
+            <remarks>
+            <b>Delete</b> throws a <b>Win32Exception</b> if the  delete operation is not successful.
+            For example, this can happen when deleting a <b>Appointment</b> item that has not been 
+            added to the <see cref="T:Microsoft.WindowsMobile.PocketOutlook.AppointmentCollection"/>.
+            </remarks>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.Appointment.Send">
             <summary>
@@ -378,7 +410,7 @@
             <summary>
             Cancels a Meeting. Removes the Meeting from the calendar.
             <remarks>
-            Cancel is available only if IsMeeting is TRUE.
+            Cancel is available only if MeetingStatus is set to Meeting.
             </remarks>
             </summary>
         </member>
@@ -396,17 +428,17 @@
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.SubjectChanged">
             <summary>
-            Occurs when an Appointment's subject changes.
+            Occurs when an Appointment's Subject changes.
             </summary>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.LocationChanged">
             <summary>
-            Occurs when an Appointment's location changes.
+            Occurs when an Appointment's Location changes.
             </summary>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.CategoriesChanged">
             <summary>
-            Occurs when an Appointment's categories change.
+            Occurs when an Appointment's Categories change.
             </summary>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.AllDayEventChanged">
@@ -416,7 +448,7 @@
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.SensitivityChanged">
             <summary>
-            Occurs when an Appointment's sensitivity changes.
+            Occurs when an Appointment's Sensitivity changes.
             </summary>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.BusyStatusChanged">
@@ -431,7 +463,7 @@
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.DurationChanged">
             <summary>
-            Occurs when an Appointment's duration changes.
+            Occurs when an Appointment's Duration changes.
             </summary>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.ReminderSetChanged">
@@ -476,12 +508,12 @@
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.StartChanged">
             <summary>
-            Occurs when an Appointment's start changes.
+            Occurs when an Appointment's Start changes.
             </summary>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.Appointment.EndChanged">
             <summary>
-            Occurs when an Appointment's end changes.
+            Occurs when an Appointment's End changes.
             </summary>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.Appointment.Subject">
@@ -516,7 +548,8 @@
             <summary>
             Gets a value indicating whether an Appointment is recurring.
             <remarks>
-            This information can be useful in building a restriction string.
+            <seealso cref="M:Microsoft.WindowsMobile.PocketOutlook.AppointmentCollection.Restrict(System.String)"/>
+            This information can be useful in building a restriction string. For more information, see <see cref="M:Microsoft.WindowsMobile.PocketOutlook.AppointmentCollection.Restrict(System.String)"/>.
             </remarks>
             </summary>
         </member>
@@ -532,6 +565,21 @@
             <summary>
             Gets a value indicating whether an Appointment is a Meeting. The MeetingStatus enumeration defines the possible values. The default value is NotMeeting.
             </summary>
+            <remarks>
+            The <see cref="T:Microsoft.WindowsMobile.PocketOutlook.MeetingStatus"/> enumeration defines the possible values.
+            The default value is <b>NotMeeting</b>.
+            <p><b>MeetingStatus</b> is a read-only property. Some operations change its value internally. For example,
+            adding a <see cref="T:Microsoft.WindowsMobile.PocketOutlook.Recipient"/> changes an Appointment's <b>MeetingStatus</b> from <b>NotMeeting</b> to <b>Meeting</b>; 
+            however, canceling a meeting does not change the <b>MeetingStatus</b> to <b>MeetingCanceled</b>.</p>
+            <p>A user can still change an Appointment's <b>MeetingStatus</b> property manually, 
+            using the techniques in the following code example.</p>
+            </remarks>
+            <example> This sample demonstrates two ways to change an Appointment's <b>MeetingStatus</b> property.
+            <code>
+            appt.Properties[AppointmentProperty.MeetingStatus] = (UInt32)MeetingStatus.MeetingAccepted;
+            appt.Properties["MeetingStatus"] = (UInt32)MeetingStatus.MeetingAccepted;
+            </code>
+            </example>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.Appointment.Sensitivity">
             <summary>
@@ -545,7 +593,7 @@
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.Appointment.ReminderSoundFile">
             <summary>
-            Gets or sets the fully qualified path name of the audio file that Pocket Outlook plays as the Appointment reminder. This property is valid only if the ReminderSet property is TRUE, and if the ReminderOptions property Includes Sound. This property defaults to the current setting in Calendar options, but if no audio file is specified, then it defaults to Alarm1.wav. The maximum length of the the fully qualified path name is 255 characters.
+            Gets or sets the fully qualified path name of the audio file that Pocket Outlook plays as the Appointment reminder. This property is valid only if the ReminderSet property is TRUE, and if the ReminderOptions property includes Sound. This property defaults to the current setting in Calendar options, but if no audio file is specified, then it defaults to Alarm1.wav. The maximum length of the the fully qualified path name is 255 characters.
             </summary>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.Appointment.ReminderMinutesBeforeStart">
@@ -699,6 +747,10 @@
             <summary>
             Removes the PIM item from the collection, at the specified index position.
             </summary>
+            <remarks>
+            Both <b>RemoveAt</b> and <see cref="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.Remove(Microsoft.WindowsMobile.PocketOutlook.PimItem)"/> throw a <b>NotSupportedException</b> exception 
+            if <see cref="P:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.AllowRemove"/> is <i>false</i>.
+            </remarks>
             <param name="index">Index in which the item is removed.</param>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.Insert(System.Int32,Microsoft.WindowsMobile.PocketOutlook.PimItem)">
@@ -714,8 +766,10 @@
             <summary>
             Removes a PIM item from the collection, based on the current sort order.
             </summary>
-            
-            <remarks> An exception will be thrown by this.RemoveAt if this.AllowRemove is false.</remarks>
+            <remarks>
+            Both <b>Remove</b> and <see cref="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.RemoveAt(System.Int32)"/> throw a <b>NotSupportedException</b> exception 
+            if <see cref="P:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.AllowRemove"/> is <i>false</i>.
+            </remarks>
             <param name="value">The PIM item to be removed from the collection.</param>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.Contains(Microsoft.WindowsMobile.PocketOutlook.PimItem)">
@@ -887,6 +941,10 @@
             <summary>
             Removes a generic object from the PIM item collection, based on the current sort order.
             </summary>
+            <remarks>
+            Both <b>Remove</b> and <see cref="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.RemoveAt(System.Int32)"/> throw a <b>NotSupportedException</b> exception 
+            if <see cref="P:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.AllowRemove"/> is <i>false</i>.
+            </remarks>
             <param name="item">The PimItem to be removed from the collection.</param>
         </member>
         <member name="E:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.ListChanged">
@@ -950,7 +1008,10 @@
             <summary>
             Gets a value indicating whether it is possible to use either Remove or RemoveAt to remove PIM items from the collection.
             </summary>
-            <remarks>Returns false if either IList.IsFixedSize or IList.IsReadOnly is true. If AllowRemove returns false, then IList.Remove and IList.RemoveAt will throw the exception NotSupportedException.
+            <remarks>
+            Returns <i>false</i> if either <see cref="P:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.IsFixedSize"/> or <see cref="P:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.IsReadOnly"/> is true.
+            If <b>AllowRemove</b> returns <i>false</i>, then <see cref="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.Remove(Microsoft.WindowsMobile.PocketOutlook.PimItem)"/> and <see cref="M:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.RemoveAt(System.Int32)"/> 
+            will throw the exception <b>NotSupportedException</b>.
             </remarks>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection.IsSorted">
@@ -1255,7 +1316,7 @@
             <remarks>
             The integer value is in the context of the <b>RecurrenceType</b> enumeration value, which is either days, weeks, months, or month by number. Use the <b>Recurrence.RecurrenceType</b> property to find out. Valid interval values lie between 1 and 999.
             </remarks>
-            <exception cref="T:System.NotSupportedException">Thrown when <b>DayOfWeek</b> is used with something other than <b>Daily</b>, <b>Monthly</b>, <b>MonthlyByNumber</b>, and <b>Weekly</b>.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when <b>Interval</b> is used with something other than <b>Daily</b>, <b>Monthly</b>, <b>MonthlyByNumber</b>, and <b>Weekly</b>.</exception>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.Recurrence.DaysOfWeekMask">
             <summary>
@@ -1360,13 +1421,22 @@
             Gets or sets the start time for a recurring Appointment.
             Pocket Outlook ignores the date and uses only the time. 
             Supported only for Appointments.
+            <para>You must set the date values for <b>PatternStartDate</b> and <b>PatternEndDate</b>. 
+            The recurrence pattern's <b>PatternStartDate</b> and <b>PatternEndDate</b> must be equal to 
+            the time and date of one of the appointments in the recurrence series. 
+            If the appointment is less than one day, 
+            then the recurrence pattern <b>PatternStartDate</b> and <b>PatternEndDate</b> must be equal.</para>
             </summary>
         </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.AppointmentRecurrence.PatternEndTime">
             <summary>
-            Gets or sets the end time for a recurring Appointment. 
-            Pocket Outlook uses only the time portion and ignores the date. 
-            Supported only for Appointments.
+            Gets or sets the end time for a recurring <b>Appointment</b>.
+            <para>Supported only for <b>Appointments</b></para>.
+            <para>You must set the date values for <b>PatternStartDate</b> and <b>PatternEndDate</b>. 
+            The recurrence pattern's <b>PatternStartDate</b> and <b>PatternEndDate</b> must be equal to 
+            the time and date of one of the appointments in the recurrence series. 
+            If the appointment is less than one day, 
+            then the recurrence pattern <b>PatternStartDate</b> and <b>PatternEndDate</b> must be equal.</para>
             </summary>
         </member>
         <member name="T:Microsoft.WindowsMobile.PocketOutlook.Attachment">
@@ -1622,8 +1692,15 @@
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.Contact.Delete">
             <summary>
-            Deletes the Contact from the Contact collection.
+            Deletes a Contact item by removing it from the Contact collection.
             </summary>
+            
+            <remarks>
+            <b>Delete</b> throws a <b>Win32Exception</b> exception if the delete operation is not successful.
+            For example, this can happen when deleting a <b>Contact</b> item that has not been 
+            added to the <see cref="T:Microsoft.WindowsMobile.PocketOutlook.ContactCollection"/>.
+            </remarks>
+            
             <overload>
             Deletes the Contact from the Contact collection.
             </overload>
@@ -2258,6 +2335,17 @@
             Represents the collection of Contact items in a Contact folder.
             <seealso cref="T:Microsoft.WindowsMobile.PocketOutlook.PimItemCollection"/>
             </summary>
+            <example>
+            The code below shows how to data bind a combo box to the list of contacts.
+            In this case, the "FileAs" property will be displayed on the combo box,
+            the "ItemId" property will be the property used for comboBox1.SelectedValue.
+            <code>
+            OutlookSession mySession = new OutlookSession();
+            this.comboBox1.DataSource = this.mySession.Contacts.Items;
+            this.comboBox1.DisplayMember = "FileAs";
+            this.comboBox1.ValueMember = "ItemId";
+            </code>
+            </example>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.ContactCollection.Restrict(System.String)">
             <summary>
@@ -2384,6 +2472,11 @@
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.TaskProperty.DateCompleted">
             <summary>         
             The date the task was completed.  
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.PocketOutlook.TaskProperty.DoNotSynchronize">
+            <summary>         
+            Do not sync the item to Exchange/Outlook  
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.TaskProperty.DueDate">
@@ -2671,6 +2764,11 @@
             The contact's company telephone number.   
             </summary>
         </member>
+        <member name="F:Microsoft.WindowsMobile.PocketOutlook.ContactProperty.ContactType">
+            <summary>         
+            The type of the contact (Device or SIM contact).  
+            </summary>
+        </member>
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.ContactProperty.CustomerId">
             <summary>         
             The contact's customer ID.  
@@ -2684,6 +2782,11 @@
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.ContactProperty.DisplayName">
             <summary>         
             The contact's name as it should appear in the user interface  
+            </summary>
+        </member>
+        <member name="F:Microsoft.WindowsMobile.PocketOutlook.ContactProperty.DoNotSynchronize">
+            <summary>         
+            Do not sync the item to Exchange/Outlook  
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.ContactProperty.Email1Address">
@@ -2971,6 +3074,11 @@
             A comma-separated list of the categories that apply to this item  
             </summary>
         </member>
+        <member name="F:Microsoft.WindowsMobile.PocketOutlook.AppointmentProperty.DoNotSynchronize">
+            <summary>         
+            Do not sync the item to Exchange/Outlook  
+            </summary>
+        </member>
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.AppointmentProperty.Duration">
             <summary>         
             The length of an appointment in minutes.  
@@ -3008,7 +3116,7 @@
         </member>
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.AppointmentProperty.MeetingOwnerCriticalChange">
             <summary>         
-            A timestamp indicating that the meeting owner wants to update the meeting request. Required when sending an updated meeting request to attendees.  
+            A timestamp indicating that the meeting owner wants to update the meeting request. Required when sending an updated meeting request to attendees. Call Appointment.Update on the appointment before setting either MeetingOwnerCriticalChange or AttendeesCriticalChange.   
             </summary>
         </member>
         <member name="F:Microsoft.WindowsMobile.PocketOutlook.AppointmentProperty.MeetingStatus">
@@ -3990,6 +4098,24 @@
             <summary>
             Raises an event when an arriving SMS message satisfies the interception rule condition. 
             </summary>
+            <remarks>
+            When defining an instance of MessageInterceptor that is going to handle the MessageReceived
+            event, make sure that the instance is defined globally in the class where the event will be handled.
+            If it is defined in a method, it will be up for garbage collection after it goes out of scope. 
+            <code>
+            public class InterceptorClass
+            {
+                MessageInterceptor interceptor; // defined globally to class
+                private void Form1_Load(object sender, EventArgs e)
+                {
+                    // MessageInterceptor interceptor;  // This instance will go out of scope if defined here
+                    
+                    interceptor = new MessageInterceptor(ruleName);
+                    interceptor.MessageReceived += new MessageInterceptorEventHandler(interceptor_MessageReceived);
+                }
+            }
+            </code>
+            </remarks>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.MessageInterception.MessageInterceptor.VerifyRuleNotRegistered">
             <summary>
@@ -4030,6 +4156,22 @@
             <summary>
             Initializes an instance of the <b>MessageInterceptor</b> class, using the specified interception action.
             </summary>
+            
+            <remarks>
+            When you use this constructor overload to create a new instance of the <b>MessageInterceptor</b> class, 
+            the associated <see cref="T:Microsoft.WindowsMobile.PocketOutlook.MessageInterception.MessageCondition"/> will be null.
+            To work around this, create a new <b>MessageCondition</b> object in a second step.
+            See the the following code example for clarification.
+            </remarks>
+            
+            <example>
+            <code>
+            MessageInterceptor mi = new MessageInterceptor(InterceptionAction.Notify);
+            mi.MessageCondition = new MessageCondition();
+            mi.MessageCondition.ComparisonValue = "review";
+            </code>
+            </example>
+            
             <param name="interceptionAction">What to do with the intercepted message after successful interception</param>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.MessageInterception.MessageInterceptor.#ctor(Microsoft.WindowsMobile.PocketOutlook.MessageInterception.InterceptionAction,System.Boolean)">
@@ -4557,6 +4699,11 @@
             If the returned object is to be casted into a value type, you must verify that the 
             returned object is not null before the casting.
             </para>
+            <para>
+            You must call <see cref="M:Microsoft.WindowsMobile.PocketOutlook.Appointment.Update"/> on the appointment 
+            before setting either 
+            <b>MeetingOwnerCriticalChange</b> or <b>AttendeesCriticalChange</b>.
+            </para>
             </remarks>
             <param name="propertyName">A propertyName from the AppointmentProperty Enum</param>
         </member>
@@ -4592,9 +4739,17 @@
             <summary>
             Initializes a new instance of the Recipient class, using the Recipient’s name and address.
             </summary>
+            
             <remarks>
-            For e-mail and Meetings, the string address is a valid e-mail address. For SMS, the string address is a valid SMS address.
+            For e-mail and Meetings, the string address is a valid e-mail address.
+            
+            <p>For SMS, the string address is a valid SMS address.</p>
+            
+            <p>If the <i>name</i> parameter is either null or an empty string, 
+            then a <b>Win32Exception</b> exception will be thrown when the <b>Recipient</b> object is 
+            added to the Recipient Collection.</p>
             </remarks>
+            
             <param name="name">The Recipient’s name.</param>
             <param name="address">The Recipient’s address.</param>
         </member>
@@ -4602,9 +4757,16 @@
             <summary>
             Initializes a new instance of the Recipient class, using the Recipient’s address.
             </summary>
+            
             <remarks>
-            For e-mail and Meetings, the string address is a valid e-mail address. For SMS, the string address is a valid SMS address.
+            For e-mail and Meetings, the string address is a valid e-mail address.
+            
+            <p>For SMS, the string address is a valid SMS address.</p>
+            
+            <p>Do not use this constructor overload to create a Recipient for adding to an Appointment's <see cref="T:Microsoft.WindowsMobile.PocketOutlook.RecipientCollection"/>.
+            Doing so will throw a <b>Win32Exception</b> exception.</p>
             </remarks>
+            
             <param name="address">The address of the recipient.</param>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.Recipient.Dispose">
@@ -4673,6 +4835,10 @@
             <returns>The Recipient added to the collection.</returns>
             <remarks>The Recipient returned is a new Recipient that is part of the collection 
             and has the same name and address as the recipient passed to <b>Add</b>.</remarks>
+            <exception cref="T:System.ComponentModel.Win32Exception">
+            Thrown when the collection is an appointment recipient collection
+            and the recipient to add has an empty or null name.
+            </exception>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.RecipientCollection.Remove(System.Int32)">
             <summary>
@@ -5146,8 +5312,14 @@
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.Task.Delete">
             <summary>
-            Removes the current Task from the Task collection.
+            Deletes a Task item by removing it from the Task collection.
             </summary>
+            
+            <remarks>
+            <b>Delete</b> throws a <b>Win32Exception</b> if the  delete operation is not successful.
+            For example, this can happen when deleting a <b>Task</b> item that has not been 
+            added to the <see cref="T:Microsoft.WindowsMobile.PocketOutlook.TaskCollection"/>.
+            </remarks>
         </member>
         <member name="M:Microsoft.WindowsMobile.PocketOutlook.Task.ToString">
             <summary>
@@ -5470,10 +5642,47 @@
             <param name="tmpString"></param>
             <returns></returns>
         </member>
+        <member name="M:Microsoft.WindowsMobile.PocketOutlook.Utilities.GetDateTimeTypesAndValues">
+            <summary>
+            Gets the DateTime types, values and methods required to manipulate the
+            Kind of a DateTime. It does not do anything if the values have been cached
+            or if the current version of the compact framework does not include the
+            Kind property.
+            </summary>
+            <returns>
+            DateTimeVersion.NetCFv1 if we are running on a version of the CF that does not have the 
+            "DateTime.Kind" property, DateTimeVersion.NetCFv2 otherwise.
+            </returns>
+        </member>
+        <member name="M:Microsoft.WindowsMobile.PocketOutlook.Utilities.SpecifyDateTimeKind(System.DateTime,Microsoft.WindowsMobile.PocketOutlook.Utilities.DateTimeKindv2)">
+            <summary>
+            Similar to .Net CF v2 DateTime.SpecifyKind, but it does not do
+            anything if we're are running on .NetCF v1.
+            </summary>
+            <param name="dateTime">A DateTime object.</param>
+            <param name="dateTimeKind">One of the DateTimeKindEx values.</param>
+            <returns>
+            A new DateTime object that represents the same time as the specified DateTime, 
+            but is designated in either local time, Coordinated Universal Time (UTC), 
+            or neither, as indicated by the specified DateTimeKindEx value. 
+            </returns>
+        </member>
         <member name="P:Microsoft.WindowsMobile.PocketOutlook.Utilities.ReferenceCount">
             <summary>
             Used to check the number of references that use the MailStore.
             The PoomStore will not do a LogOff unless the ReferenceCount is 0.
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsMobile.PocketOutlook.Utilities.DateTimeKindv2">
+            <summary>
+            Used to represent the different kinds of dates that can be
+            specified on .Net CF v2. I did not name it DateTimeKind so
+            that it does not get confused with DateTime.DateTimeKind.
+            </summary>
+        </member>
+        <member name="T:Microsoft.WindowsMobile.PocketOutlook.Utilities.DateTimeVersion">
+            <summary>
+            Let's us know what DateTime version we are using.
             </summary>
         </member>
         <member name="T:Microsoft.WindowsMobile.PocketOutlook.PocketOutlookException">

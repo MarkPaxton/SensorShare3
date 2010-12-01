@@ -140,7 +140,7 @@ namespace SensorShare.Compact
             log.LogException(ex, "processASCIIReading saveSensorReadings");
          }
 
-         //UpdateOverallStats(asciiReadingDBConnection);
+         //UpdateOverallStats(asciiReadingDBConnewction);
 
          //std_devs = DatabaseHelper.getStdDev(CurrentServerData.id, overall_means, (int)overall_stats[12], asciiReadingDBConnection);
          //dataToSend = new SensorReadingsData(CurrentServerData.id, value[0], value[1], value[2], value[3], receivedTime, overall_means, std_devs);

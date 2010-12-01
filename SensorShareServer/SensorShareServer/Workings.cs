@@ -170,6 +170,7 @@ namespace SensorShare.Compact
       {
          Debug.WriteLine(e.Message);
          log.WriteToSQL(database, e.Message);
+         DoUpdateTextBox(logTextBox, e.Message, 3);
       }
 
       private void SendAliveMessage(object ob)

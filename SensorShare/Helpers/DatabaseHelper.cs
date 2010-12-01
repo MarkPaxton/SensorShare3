@@ -512,32 +512,35 @@ namespace SensorShare
 
       public static void saveSensorReadingsList(List<SensorReadings> dataList, SQLiteConnection database)
       {
-         using(SQLiteCommand command = database.CreateCommand())
-         {
-            if (command.Connection.State != ConnectionState.Open)
-            {
-               command.Connection.Open();
-            }
-            string query;
-            Hashtable dataRow = new Hashtable();
-            foreach (SensorReadings reading in dataList)
-            {
-               dataRow.Clear();
+          lock (database)
+          {
+              using (SQLiteCommand command = database.CreateCommand())
+              {
+                  if (command.Connection.State != ConnectionState.Open)
+                  {
+                      command.Connection.Open();
+                  }
+                  string query;
+                  Hashtable dataRow = new Hashtable();
+                  foreach (SensorReadings reading in dataList)
+                  {
+                      dataRow.Clear();
 
-               dataRow["server_id"] = SQLHelper.FormatAndAddQuotes(reading.ServerID.ToString());
-               dataRow["reading_1"] = reading.Reading1;
-               dataRow["reading_2"] = reading.Reading2;
-               dataRow["reading_3"] = reading.Reading3;
-               dataRow["reading_4"] = reading.Reading4;
-               dataRow["reading_time"] = SQLHelper.FormatAndAddQuotes(reading.Time.ToString(SQLHelper.DateFormatString));
+                      dataRow["server_id"] = SQLHelper.FormatAndAddQuotes(reading.ServerID.ToString());
+                      dataRow["reading_1"] = reading.Reading1;
+                      dataRow["reading_2"] = reading.Reading2;
+                      dataRow["reading_3"] = reading.Reading3;
+                      dataRow["reading_4"] = reading.Reading4;
+                      dataRow["reading_time"] = SQLHelper.FormatAndAddQuotes(reading.Time.ToString(SQLHelper.DateFormatString));
 
-               query = String.Format("INSERT INTO {0} {1}", SensorShareConfig.ClientReadingsTableName, SQLHelper.GenerateColumnsAndValues(dataRow));
-               Debug.WriteLine(query);
-               command.CommandText = query;
-               command.ExecuteNonQuery();               
-            }
-         }
-         database.Close();
+                      query = String.Format("INSERT INTO {0} {1}", SensorShareConfig.ClientReadingsTableName, SQLHelper.GenerateColumnsAndValues(dataRow));
+                      Debug.WriteLine(query);
+                      command.CommandText = query;
+                      command.ExecuteNonQuery();
+                  }
+              }
+              database.Close();
+          }
       }
 
       #endregion
